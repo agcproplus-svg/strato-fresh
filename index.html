@@ -1,78 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Strat-like Cards — 2008</title>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <meta charset="UTF-8">
+  <title>Clutch Play</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <div class="brand">
-        <img id="brandLogo" src="assets/logos/NYG.svg" alt="logo"/>
-        <div class="title">Gridiron Cards — 2008 (Strat-inspired)</div>
-      </div>
-      <div class="topbar">
-        <div class="controls">
-          <select id="userSel" class="select"></select>
-          <select id="cpuSel" class="select"></select>
-          <button id="startBtn" class="admin-btn">Start Game</button>
-        </div>
-        <button id="adminBtn" class="admin-btn">Admin</button>
-      </div>
+  <!-- Team Selection Screen -->
+  <div id="teamSelect" class="screen">
+    <h1>🏈 Clutch Play</h1>
+    <div class="select-row">
+      <label>User Team:
+        <select id="userTeam"></select>
+      </label>
+      <label>CPU Team:
+        <select id="cpuTeam"></select>
+      </label>
+    </div>
+    <button id="startGame" class="primary-btn">Start Game</button>
+  </div>
+
+  <!-- Game Board -->
+  <div id="gameBoard" class="screen" style="display:none;">
+    <div id="scoreboard">
+      <div id="resultBox">Game Start: User Offense vs CPU Defense</div>
     </div>
 
-    <div id="game" style="display:none" class="grid">
-      <div class="panel">
-        <div class="row"><div><b>Result</b></div><div class="row"><span class="badge" id="posBadge">USER ball</span> <span class="badge" id="downBadge">1st & 10 @ 25</span></div></div>
-        <div id="result" class="result">Waiting…</div>
-        <div class="field" id="field">
-          <div class="hash" style="top:6%"></div><div class="hash" style="top:16%"></div><div class="hash" style="top:26%"></div>
-          <div class="hash" style="top:36%"></div><div class="hash" style="top:46%"></div><div class="hash" style="top:56%"></div>
-          <div class="hash" style="top:66%"></div><div class="hash" style="top:76%"></div><div class="hash" style="top:86%"></div>
-          <div id="ball" class="ball">🏈</div>
-        </div>
-        <div id="offBar" class="playbar"></div>
-        <div id="defBar" class="playbar"></div>
-      </div>
-
-      <div class="panel">
-        <div class="row"><b id="leftTitle">USER Offense</b><div class="row"><img id="leftLogo" class="logo"/><div id="leftAbbr" class="badge"></div></div></div>
-        <div id="leftRoster" class="side"></div>
-      </div>
-
-      <div class="panel">
-        <div class="row"><b id="rightTitle">CPU Defense</b><div class="row"><img id="rightLogo" class="logo"/><div id="rightAbbr" class="badge"></div></div></div>
-        <div id="rightRoster" class="side"></div>
-      </div>
+    <div id="fieldWrapper">
+      <div id="offenseCol" class="team-col"></div>
+      <div id="field"></div>
+      <div id="defenseCol" class="team-col"></div>
     </div>
 
-    <div id="logPanel" style="margin-top:12px" class="panel">
-      <div><b>Play-by-play</b></div>
-      <div id="log" class="log"></div>
+    <div id="playButtons">
+      <button class="play-btn" data-play="Run RB">Run RB</button>
+      <button class="play-btn" data-play="Short Pass">Short Pass</button>
+      <button class="play-btn" data-play="Deep Pass">Deep Pass</button>
+      <button class="play-btn" data-play="Screen">Screen</button>
+      <button class="play-btn" data-play="TE Seam">TE Seam</button>
+      <button class="play-btn" data-play="Punt">Punt</button>
+      <button class="play-btn" data-play="Field Goal">Field Goal</button>
     </div>
   </div>
 
-  <div id="hoverCard" class="pop">
-    <h4 id="hoverTitle">Player</h4>
-    <div class="small" id="hoverPos">POS</div>
-    <pre id="hoverStats">{}</pre>
-  </div>
+  <!-- Player popup -->
+  <div id="playerPopup"></div>
 
-  <div id="adminModal" class="modal" style="display:none">
-    <div class="card">
-      <div class="row"><b>Admin Editor</b><button id="adminClose">Close</button></div>
-      <div style="margin-top:8px">
-        <div class="small">Edit rosters JSON (paste full 2008 rosters) and Save to localStorage.</div>
-        <textarea id="rosterText"></textarea>
-        <div style="margin-top:8px"><button id="saveRosters" class="admin-btn">Save to Local</button> <button id="exportBtn" class="admin-btn">Export Current</button> <button id="clearLocal" class="admin-btn">Clear Local</button></div>
-        <div style="margin-top:8px"><textarea id="importText" placeholder='Paste JSON for import'></textarea></div>
-        <div style="margin-top:8px"><button id="importBtn" class="admin-btn">Import</button></div>
-      </div>
-    </div>
-  </div>
+  <script src="app.js"></script>
+  <script>
+    // preload team options
+    fetch("data/rosters-2008.json")
+      .then(res => res.json())
+      .then(rosters => {
+        const userSel = document.getElementById("userTeam");
+        const cpuSel = document.getElementById("cpuTeam");
+        Object.keys(rosters).forEach(team => {
+          const opt1 = document.createElement("option");
+          opt1.value = team;
+          opt1.textContent = team;
+          userSel.appendChild(opt1);
 
-  <script src="assets/js/app.js"></script>
+          const opt2 = document.createElement("option");
+          opt2.value = team;
+          opt2.textContent = team;
+          cpuSel.appendChild(opt2);
+        });
+      });
+  </script>
 </body>
 </html>
