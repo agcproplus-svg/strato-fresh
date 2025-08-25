@@ -1,0 +1,6338 @@
+{
+  "ARI": [
+    {
+      "id": "ARI-QB",
+      "team": "ARI",
+      "name": "ARI QB",
+      "position": "QB",
+      "rating": 67,
+      "stats": {
+        "short": 67,
+        "deep": 65,
+        "int": 33
+      }
+    },
+    {
+      "id": "ARI-RB",
+      "team": "ARI",
+      "name": "ARI RB",
+      "position": "RB",
+      "rating": 78,
+      "stats": {
+        "inside": 78,
+        "outside": 83,
+        "fumble": 22
+      }
+    },
+    {
+      "id": "ARI-WR1",
+      "team": "ARI",
+      "name": "ARI WR1",
+      "position": "WR1",
+      "rating": 75,
+      "stats": {
+        "catch": 78,
+        "route": 80
+      }
+    },
+    {
+      "id": "ARI-WR2",
+      "team": "ARI",
+      "name": "ARI WR2",
+      "position": "WR2",
+      "rating": 80,
+      "stats": {
+        "catch": 82,
+        "route": 86
+      }
+    },
+    {
+      "id": "ARI-WR3",
+      "team": "ARI",
+      "name": "ARI WR3",
+      "position": "WR3",
+      "rating": 79,
+      "stats": {
+        "catch": 86,
+        "route": 84
+      }
+    },
+    {
+      "id": "ARI-TE",
+      "team": "ARI",
+      "name": "ARI TE",
+      "position": "TE",
+      "rating": 72,
+      "stats": {
+        "catch": 78,
+        "route": 74
+      }
+    },
+    {
+      "id": "ARI-DT1",
+      "team": "ARI",
+      "name": "ARI DT1",
+      "position": "DT1",
+      "rating": 65,
+      "stats": {
+        "runD": 70,
+        "rush": 64,
+        "tackle": 65
+      }
+    },
+    {
+      "id": "ARI-DT2",
+      "team": "ARI",
+      "name": "ARI DT2",
+      "position": "DT2",
+      "rating": 82,
+      "stats": {
+        "runD": 87,
+        "rush": 83,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "ARI-DE1",
+      "team": "ARI",
+      "name": "ARI DE1",
+      "position": "DE1",
+      "rating": 66,
+      "stats": {
+        "runD": 70,
+        "rush": 66,
+        "tackle": 70
+      }
+    },
+    {
+      "id": "ARI-DE2",
+      "team": "ARI",
+      "name": "ARI DE2",
+      "position": "DE2",
+      "rating": 67,
+      "stats": {
+        "runD": 67,
+        "rush": 73,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "ARI-LB1",
+      "team": "ARI",
+      "name": "ARI LB1",
+      "position": "LB1",
+      "rating": 79,
+      "stats": {
+        "runD": 82,
+        "rush": 81,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "ARI-LB2",
+      "team": "ARI",
+      "name": "ARI LB2",
+      "position": "LB2",
+      "rating": 79,
+      "stats": {
+        "runD": 82,
+        "rush": 81,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "ARI-LB3",
+      "team": "ARI",
+      "name": "ARI LB3",
+      "position": "LB3",
+      "rating": 65,
+      "stats": {
+        "runD": 66,
+        "rush": 64,
+        "tackle": 66
+      }
+    },
+    {
+      "id": "ARI-CB1",
+      "team": "ARI",
+      "name": "ARI CB1",
+      "position": "CB1",
+      "rating": 89,
+      "stats": {
+        "cover": 93,
+        "tackle": 93
+      }
+    },
+    {
+      "id": "ARI-CB2",
+      "team": "ARI",
+      "name": "ARI CB2",
+      "position": "CB2",
+      "rating": 67,
+      "stats": {
+        "cover": 67,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "ARI-FS",
+      "team": "ARI",
+      "name": "ARI FS",
+      "position": "FS",
+      "rating": 88,
+      "stats": {
+        "cover": 96,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "ARI-SS",
+      "team": "ARI",
+      "name": "ARI SS",
+      "position": "SS",
+      "rating": 78,
+      "stats": {
+        "cover": 89,
+        "tackle": 82
+      }
+    }
+  ],
+  "ATL": [
+    {
+      "id": "ATL-QB",
+      "team": "ATL",
+      "name": "ATL QB",
+      "position": "QB",
+      "rating": 69,
+      "stats": {
+        "short": 78,
+        "deep": 67,
+        "int": 31
+      }
+    },
+    {
+      "id": "ATL-RB",
+      "team": "ATL",
+      "name": "ATL RB",
+      "position": "RB",
+      "rating": 83,
+      "stats": {
+        "inside": 87,
+        "outside": 84,
+        "fumble": 17
+      }
+    },
+    {
+      "id": "ATL-WR1",
+      "team": "ATL",
+      "name": "ATL WR1",
+      "position": "WR1",
+      "rating": 83,
+      "stats": {
+        "catch": 85,
+        "route": 82
+      }
+    },
+    {
+      "id": "ATL-WR2",
+      "team": "ATL",
+      "name": "ATL WR2",
+      "position": "WR2",
+      "rating": 86,
+      "stats": {
+        "catch": 98,
+        "route": 89
+      }
+    },
+    {
+      "id": "ATL-WR3",
+      "team": "ATL",
+      "name": "ATL WR3",
+      "position": "WR3",
+      "rating": 65,
+      "stats": {
+        "catch": 73,
+        "route": 65
+      }
+    },
+    {
+      "id": "ATL-TE",
+      "team": "ATL",
+      "name": "ATL TE",
+      "position": "TE",
+      "rating": 65,
+      "stats": {
+        "catch": 74,
+        "route": 63
+      }
+    },
+    {
+      "id": "ATL-DT1",
+      "team": "ATL",
+      "name": "ATL DT1",
+      "position": "DT1",
+      "rating": 67,
+      "stats": {
+        "runD": 71,
+        "rush": 70,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "ATL-DT2",
+      "team": "ATL",
+      "name": "ATL DT2",
+      "position": "DT2",
+      "rating": 84,
+      "stats": {
+        "runD": 91,
+        "rush": 87,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "ATL-DE1",
+      "team": "ATL",
+      "name": "ATL DE1",
+      "position": "DE1",
+      "rating": 86,
+      "stats": {
+        "runD": 90,
+        "rush": 86,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "ATL-DE2",
+      "team": "ATL",
+      "name": "ATL DE2",
+      "position": "DE2",
+      "rating": 89,
+      "stats": {
+        "runD": 92,
+        "rush": 94,
+        "tackle": 93
+      }
+    },
+    {
+      "id": "ATL-LB1",
+      "team": "ATL",
+      "name": "ATL LB1",
+      "position": "LB1",
+      "rating": 65,
+      "stats": {
+        "runD": 73,
+        "rush": 65,
+        "tackle": 65
+      }
+    },
+    {
+      "id": "ATL-LB2",
+      "team": "ATL",
+      "name": "ATL LB2",
+      "position": "LB2",
+      "rating": 66,
+      "stats": {
+        "runD": 70,
+        "rush": 64,
+        "tackle": 70
+      }
+    },
+    {
+      "id": "ATL-LB3",
+      "team": "ATL",
+      "name": "ATL LB3",
+      "position": "LB3",
+      "rating": 77,
+      "stats": {
+        "runD": 82,
+        "rush": 78,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "ATL-CB1",
+      "team": "ATL",
+      "name": "ATL CB1",
+      "position": "CB1",
+      "rating": 84,
+      "stats": {
+        "cover": 87,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "ATL-CB2",
+      "team": "ATL",
+      "name": "ATL CB2",
+      "position": "CB2",
+      "rating": 80,
+      "stats": {
+        "cover": 84,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "ATL-FS",
+      "team": "ATL",
+      "name": "ATL FS",
+      "position": "FS",
+      "rating": 85,
+      "stats": {
+        "cover": 93,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "ATL-SS",
+      "team": "ATL",
+      "name": "ATL SS",
+      "position": "SS",
+      "rating": 67,
+      "stats": {
+        "cover": 75,
+        "tackle": 66
+      }
+    }
+  ],
+  "BAL": [
+    {
+      "id": "BAL-QB",
+      "team": "BAL",
+      "name": "BAL QB",
+      "position": "QB",
+      "rating": 76,
+      "stats": {
+        "short": 78,
+        "deep": 77,
+        "int": 24
+      }
+    },
+    {
+      "id": "BAL-RB",
+      "team": "BAL",
+      "name": "BAL RB",
+      "position": "RB",
+      "rating": 75,
+      "stats": {
+        "inside": 84,
+        "outside": 73,
+        "fumble": 25
+      }
+    },
+    {
+      "id": "BAL-WR1",
+      "team": "BAL",
+      "name": "BAL WR1",
+      "position": "WR1",
+      "rating": 88,
+      "stats": {
+        "catch": 96,
+        "route": 95
+      }
+    },
+    {
+      "id": "BAL-WR2",
+      "team": "BAL",
+      "name": "BAL WR2",
+      "position": "WR2",
+      "rating": 85,
+      "stats": {
+        "catch": 97,
+        "route": 83
+      }
+    },
+    {
+      "id": "BAL-WR3",
+      "team": "BAL",
+      "name": "BAL WR3",
+      "position": "WR3",
+      "rating": 65,
+      "stats": {
+        "catch": 68,
+        "route": 64
+      }
+    },
+    {
+      "id": "BAL-TE",
+      "team": "BAL",
+      "name": "BAL TE",
+      "position": "TE",
+      "rating": 73,
+      "stats": {
+        "catch": 82,
+        "route": 74
+      }
+    },
+    {
+      "id": "BAL-DT1",
+      "team": "BAL",
+      "name": "BAL DT1",
+      "position": "DT1",
+      "rating": 86,
+      "stats": {
+        "runD": 88,
+        "rush": 84,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "BAL-DT2",
+      "team": "BAL",
+      "name": "BAL DT2",
+      "position": "DT2",
+      "rating": 71,
+      "stats": {
+        "runD": 79,
+        "rush": 77,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "BAL-DE1",
+      "team": "BAL",
+      "name": "BAL DE1",
+      "position": "DE1",
+      "rating": 68,
+      "stats": {
+        "runD": 69,
+        "rush": 70,
+        "tackle": 70
+      }
+    },
+    {
+      "id": "BAL-DE2",
+      "team": "BAL",
+      "name": "BAL DE2",
+      "position": "DE2",
+      "rating": 76,
+      "stats": {
+        "runD": 76,
+        "rush": 75,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "BAL-LB1",
+      "team": "BAL",
+      "name": "BAL LB1",
+      "position": "LB1",
+      "rating": 90,
+      "stats": {
+        "runD": 90,
+        "rush": 88,
+        "tackle": 95
+      }
+    },
+    {
+      "id": "BAL-LB2",
+      "team": "BAL",
+      "name": "BAL LB2",
+      "position": "LB2",
+      "rating": 83,
+      "stats": {
+        "runD": 84,
+        "rush": 82,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "BAL-LB3",
+      "team": "BAL",
+      "name": "BAL LB3",
+      "position": "LB3",
+      "rating": 83,
+      "stats": {
+        "runD": 85,
+        "rush": 82,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "BAL-CB1",
+      "team": "BAL",
+      "name": "BAL CB1",
+      "position": "CB1",
+      "rating": 84,
+      "stats": {
+        "cover": 95,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "BAL-CB2",
+      "team": "BAL",
+      "name": "BAL CB2",
+      "position": "CB2",
+      "rating": 83,
+      "stats": {
+        "cover": 84,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "BAL-FS",
+      "team": "BAL",
+      "name": "BAL FS",
+      "position": "FS",
+      "rating": 78,
+      "stats": {
+        "cover": 82,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "BAL-SS",
+      "team": "BAL",
+      "name": "BAL SS",
+      "position": "SS",
+      "rating": 71,
+      "stats": {
+        "cover": 83,
+        "tackle": 75
+      }
+    }
+  ],
+  "BUF": [
+    {
+      "id": "BUF-QB",
+      "team": "BUF",
+      "name": "BUF QB",
+      "position": "QB",
+      "rating": 77,
+      "stats": {
+        "short": 85,
+        "deep": 78,
+        "int": 23
+      }
+    },
+    {
+      "id": "BUF-RB",
+      "team": "BUF",
+      "name": "BUF RB",
+      "position": "RB",
+      "rating": 65,
+      "stats": {
+        "inside": 72,
+        "outside": 64,
+        "fumble": 35
+      }
+    },
+    {
+      "id": "BUF-WR1",
+      "team": "BUF",
+      "name": "BUF WR1",
+      "position": "WR1",
+      "rating": 68,
+      "stats": {
+        "catch": 73,
+        "route": 66
+      }
+    },
+    {
+      "id": "BUF-WR2",
+      "team": "BUF",
+      "name": "BUF WR2",
+      "position": "WR2",
+      "rating": 89,
+      "stats": {
+        "catch": 93,
+        "route": 93
+      }
+    },
+    {
+      "id": "BUF-WR3",
+      "team": "BUF",
+      "name": "BUF WR3",
+      "position": "WR3",
+      "rating": 86,
+      "stats": {
+        "catch": 97,
+        "route": 92
+      }
+    },
+    {
+      "id": "BUF-TE",
+      "team": "BUF",
+      "name": "BUF TE",
+      "position": "TE",
+      "rating": 83,
+      "stats": {
+        "catch": 86,
+        "route": 84
+      }
+    },
+    {
+      "id": "BUF-DT1",
+      "team": "BUF",
+      "name": "BUF DT1",
+      "position": "DT1",
+      "rating": 70,
+      "stats": {
+        "runD": 70,
+        "rush": 74,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "BUF-DT2",
+      "team": "BUF",
+      "name": "BUF DT2",
+      "position": "DT2",
+      "rating": 78,
+      "stats": {
+        "runD": 79,
+        "rush": 76,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "BUF-DE1",
+      "team": "BUF",
+      "name": "BUF DE1",
+      "position": "DE1",
+      "rating": 90,
+      "stats": {
+        "runD": 93,
+        "rush": 92,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "BUF-DE2",
+      "team": "BUF",
+      "name": "BUF DE2",
+      "position": "DE2",
+      "rating": 83,
+      "stats": {
+        "runD": 85,
+        "rush": 86,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "BUF-LB1",
+      "team": "BUF",
+      "name": "BUF LB1",
+      "position": "LB1",
+      "rating": 86,
+      "stats": {
+        "runD": 89,
+        "rush": 87,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "BUF-LB2",
+      "team": "BUF",
+      "name": "BUF LB2",
+      "position": "LB2",
+      "rating": 83,
+      "stats": {
+        "runD": 90,
+        "rush": 88,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "BUF-LB3",
+      "team": "BUF",
+      "name": "BUF LB3",
+      "position": "LB3",
+      "rating": 85,
+      "stats": {
+        "runD": 90,
+        "rush": 87,
+        "tackle": 91
+      }
+    },
+    {
+      "id": "BUF-CB1",
+      "team": "BUF",
+      "name": "BUF CB1",
+      "position": "CB1",
+      "rating": 89,
+      "stats": {
+        "cover": 91,
+        "tackle": 96
+      }
+    },
+    {
+      "id": "BUF-CB2",
+      "team": "BUF",
+      "name": "BUF CB2",
+      "position": "CB2",
+      "rating": 68,
+      "stats": {
+        "cover": 76,
+        "tackle": 66
+      }
+    },
+    {
+      "id": "BUF-FS",
+      "team": "BUF",
+      "name": "BUF FS",
+      "position": "FS",
+      "rating": 89,
+      "stats": {
+        "cover": 101,
+        "tackle": 91
+      }
+    },
+    {
+      "id": "BUF-SS",
+      "team": "BUF",
+      "name": "BUF SS",
+      "position": "SS",
+      "rating": 80,
+      "stats": {
+        "cover": 89,
+        "tackle": 87
+      }
+    }
+  ],
+  "CAR": [
+    {
+      "id": "CAR-QB",
+      "team": "CAR",
+      "name": "CAR QB",
+      "position": "QB",
+      "rating": 89,
+      "stats": {
+        "short": 91,
+        "deep": 94,
+        "int": 11
+      }
+    },
+    {
+      "id": "CAR-RB",
+      "team": "CAR",
+      "name": "CAR RB",
+      "position": "RB",
+      "rating": 75,
+      "stats": {
+        "inside": 77,
+        "outside": 72,
+        "fumble": 25
+      }
+    },
+    {
+      "id": "CAR-WR1",
+      "team": "CAR",
+      "name": "CAR WR1",
+      "position": "WR1",
+      "rating": 65,
+      "stats": {
+        "catch": 73,
+        "route": 65
+      }
+    },
+    {
+      "id": "CAR-WR2",
+      "team": "CAR",
+      "name": "CAR WR2",
+      "position": "WR2",
+      "rating": 74,
+      "stats": {
+        "catch": 77,
+        "route": 73
+      }
+    },
+    {
+      "id": "CAR-WR3",
+      "team": "CAR",
+      "name": "CAR WR3",
+      "position": "WR3",
+      "rating": 80,
+      "stats": {
+        "catch": 89,
+        "route": 86
+      }
+    },
+    {
+      "id": "CAR-TE",
+      "team": "CAR",
+      "name": "CAR TE",
+      "position": "TE",
+      "rating": 69,
+      "stats": {
+        "catch": 71,
+        "route": 73
+      }
+    },
+    {
+      "id": "CAR-DT1",
+      "team": "CAR",
+      "name": "CAR DT1",
+      "position": "DT1",
+      "rating": 71,
+      "stats": {
+        "runD": 71,
+        "rush": 77,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "CAR-DT2",
+      "team": "CAR",
+      "name": "CAR DT2",
+      "position": "DT2",
+      "rating": 84,
+      "stats": {
+        "runD": 89,
+        "rush": 82,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "CAR-DE1",
+      "team": "CAR",
+      "name": "CAR DE1",
+      "position": "DE1",
+      "rating": 74,
+      "stats": {
+        "runD": 80,
+        "rush": 76,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "CAR-DE2",
+      "team": "CAR",
+      "name": "CAR DE2",
+      "position": "DE2",
+      "rating": 66,
+      "stats": {
+        "runD": 73,
+        "rush": 67,
+        "tackle": 71
+      }
+    },
+    {
+      "id": "CAR-LB1",
+      "team": "CAR",
+      "name": "CAR LB1",
+      "position": "LB1",
+      "rating": 90,
+      "stats": {
+        "runD": 95,
+        "rush": 92,
+        "tackle": 95
+      }
+    },
+    {
+      "id": "CAR-LB2",
+      "team": "CAR",
+      "name": "CAR LB2",
+      "position": "LB2",
+      "rating": 79,
+      "stats": {
+        "runD": 84,
+        "rush": 79,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "CAR-LB3",
+      "team": "CAR",
+      "name": "CAR LB3",
+      "position": "LB3",
+      "rating": 84,
+      "stats": {
+        "runD": 85,
+        "rush": 82,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "CAR-CB1",
+      "team": "CAR",
+      "name": "CAR CB1",
+      "position": "CB1",
+      "rating": 89,
+      "stats": {
+        "cover": 97,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "CAR-CB2",
+      "team": "CAR",
+      "name": "CAR CB2",
+      "position": "CB2",
+      "rating": 81,
+      "stats": {
+        "cover": 82,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "CAR-FS",
+      "team": "CAR",
+      "name": "CAR FS",
+      "position": "FS",
+      "rating": 81,
+      "stats": {
+        "cover": 89,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "CAR-SS",
+      "team": "CAR",
+      "name": "CAR SS",
+      "position": "SS",
+      "rating": 90,
+      "stats": {
+        "cover": 96,
+        "tackle": 88
+      }
+    }
+  ],
+  "CHI": [
+    {
+      "id": "CHI-QB",
+      "team": "CHI",
+      "name": "CHI QB",
+      "position": "QB",
+      "rating": 79,
+      "stats": {
+        "short": 83,
+        "deep": 83,
+        "int": 21
+      }
+    },
+    {
+      "id": "CHI-RB",
+      "team": "CHI",
+      "name": "CHI RB",
+      "position": "RB",
+      "rating": 87,
+      "stats": {
+        "inside": 88,
+        "outside": 90,
+        "fumble": 13
+      }
+    },
+    {
+      "id": "CHI-WR1",
+      "team": "CHI",
+      "name": "CHI WR1",
+      "position": "WR1",
+      "rating": 85,
+      "stats": {
+        "catch": 87,
+        "route": 93
+      }
+    },
+    {
+      "id": "CHI-WR2",
+      "team": "CHI",
+      "name": "CHI WR2",
+      "position": "WR2",
+      "rating": 65,
+      "stats": {
+        "catch": 67,
+        "route": 68
+      }
+    },
+    {
+      "id": "CHI-WR3",
+      "team": "CHI",
+      "name": "CHI WR3",
+      "position": "WR3",
+      "rating": 85,
+      "stats": {
+        "catch": 94,
+        "route": 91
+      }
+    },
+    {
+      "id": "CHI-TE",
+      "team": "CHI",
+      "name": "CHI TE",
+      "position": "TE",
+      "rating": 70,
+      "stats": {
+        "catch": 73,
+        "route": 69
+      }
+    },
+    {
+      "id": "CHI-DT1",
+      "team": "CHI",
+      "name": "CHI DT1",
+      "position": "DT1",
+      "rating": 82,
+      "stats": {
+        "runD": 84,
+        "rush": 83,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "CHI-DT2",
+      "team": "CHI",
+      "name": "CHI DT2",
+      "position": "DT2",
+      "rating": 82,
+      "stats": {
+        "runD": 86,
+        "rush": 81,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "CHI-DE1",
+      "team": "CHI",
+      "name": "CHI DE1",
+      "position": "DE1",
+      "rating": 80,
+      "stats": {
+        "runD": 82,
+        "rush": 83,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "CHI-DE2",
+      "team": "CHI",
+      "name": "CHI DE2",
+      "position": "DE2",
+      "rating": 90,
+      "stats": {
+        "runD": 90,
+        "rush": 91,
+        "tackle": 91
+      }
+    },
+    {
+      "id": "CHI-LB1",
+      "team": "CHI",
+      "name": "CHI LB1",
+      "position": "LB1",
+      "rating": 71,
+      "stats": {
+        "runD": 76,
+        "rush": 73,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "CHI-LB2",
+      "team": "CHI",
+      "name": "CHI LB2",
+      "position": "LB2",
+      "rating": 84,
+      "stats": {
+        "runD": 84,
+        "rush": 82,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "CHI-LB3",
+      "team": "CHI",
+      "name": "CHI LB3",
+      "position": "LB3",
+      "rating": 73,
+      "stats": {
+        "runD": 79,
+        "rush": 79,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "CHI-CB1",
+      "team": "CHI",
+      "name": "CHI CB1",
+      "position": "CB1",
+      "rating": 76,
+      "stats": {
+        "cover": 79,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "CHI-CB2",
+      "team": "CHI",
+      "name": "CHI CB2",
+      "position": "CB2",
+      "rating": 89,
+      "stats": {
+        "cover": 97,
+        "tackle": 96
+      }
+    },
+    {
+      "id": "CHI-FS",
+      "team": "CHI",
+      "name": "CHI FS",
+      "position": "FS",
+      "rating": 74,
+      "stats": {
+        "cover": 86,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "CHI-SS",
+      "team": "CHI",
+      "name": "CHI SS",
+      "position": "SS",
+      "rating": 80,
+      "stats": {
+        "cover": 91,
+        "tackle": 86
+      }
+    }
+  ],
+  "CIN": [
+    {
+      "id": "CIN-QB",
+      "team": "CIN",
+      "name": "CIN QB",
+      "position": "QB",
+      "rating": 77,
+      "stats": {
+        "short": 83,
+        "deep": 82,
+        "int": 23
+      }
+    },
+    {
+      "id": "CIN-RB",
+      "team": "CIN",
+      "name": "CIN RB",
+      "position": "RB",
+      "rating": 81,
+      "stats": {
+        "inside": 85,
+        "outside": 86,
+        "fumble": 19
+      }
+    },
+    {
+      "id": "CIN-WR1",
+      "team": "CIN",
+      "name": "CIN WR1",
+      "position": "WR1",
+      "rating": 78,
+      "stats": {
+        "catch": 83,
+        "route": 81
+      }
+    },
+    {
+      "id": "CIN-WR2",
+      "team": "CIN",
+      "name": "CIN WR2",
+      "position": "WR2",
+      "rating": 78,
+      "stats": {
+        "catch": 89,
+        "route": 84
+      }
+    },
+    {
+      "id": "CIN-WR3",
+      "team": "CIN",
+      "name": "CIN WR3",
+      "position": "WR3",
+      "rating": 82,
+      "stats": {
+        "catch": 84,
+        "route": 84
+      }
+    },
+    {
+      "id": "CIN-TE",
+      "team": "CIN",
+      "name": "CIN TE",
+      "position": "TE",
+      "rating": 69,
+      "stats": {
+        "catch": 78,
+        "route": 69
+      }
+    },
+    {
+      "id": "CIN-DT1",
+      "team": "CIN",
+      "name": "CIN DT1",
+      "position": "DT1",
+      "rating": 83,
+      "stats": {
+        "runD": 91,
+        "rush": 83,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "CIN-DT2",
+      "team": "CIN",
+      "name": "CIN DT2",
+      "position": "DT2",
+      "rating": 86,
+      "stats": {
+        "runD": 93,
+        "rush": 84,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "CIN-DE1",
+      "team": "CIN",
+      "name": "CIN DE1",
+      "position": "DE1",
+      "rating": 76,
+      "stats": {
+        "runD": 81,
+        "rush": 82,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "CIN-DE2",
+      "team": "CIN",
+      "name": "CIN DE2",
+      "position": "DE2",
+      "rating": 86,
+      "stats": {
+        "runD": 86,
+        "rush": 92,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "CIN-LB1",
+      "team": "CIN",
+      "name": "CIN LB1",
+      "position": "LB1",
+      "rating": 69,
+      "stats": {
+        "runD": 76,
+        "rush": 68,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "CIN-LB2",
+      "team": "CIN",
+      "name": "CIN LB2",
+      "position": "LB2",
+      "rating": 66,
+      "stats": {
+        "runD": 74,
+        "rush": 70,
+        "tackle": 67
+      }
+    },
+    {
+      "id": "CIN-LB3",
+      "team": "CIN",
+      "name": "CIN LB3",
+      "position": "LB3",
+      "rating": 72,
+      "stats": {
+        "runD": 76,
+        "rush": 75,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "CIN-CB1",
+      "team": "CIN",
+      "name": "CIN CB1",
+      "position": "CB1",
+      "rating": 76,
+      "stats": {
+        "cover": 77,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "CIN-CB2",
+      "team": "CIN",
+      "name": "CIN CB2",
+      "position": "CB2",
+      "rating": 67,
+      "stats": {
+        "cover": 71,
+        "tackle": 75
+      }
+    },
+    {
+      "id": "CIN-FS",
+      "team": "CIN",
+      "name": "CIN FS",
+      "position": "FS",
+      "rating": 84,
+      "stats": {
+        "cover": 88,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "CIN-SS",
+      "team": "CIN",
+      "name": "CIN SS",
+      "position": "SS",
+      "rating": 66,
+      "stats": {
+        "cover": 74,
+        "tackle": 67
+      }
+    }
+  ],
+  "CLE": [
+    {
+      "id": "CLE-QB",
+      "team": "CLE",
+      "name": "CLE QB",
+      "position": "QB",
+      "rating": 76,
+      "stats": {
+        "short": 79,
+        "deep": 74,
+        "int": 24
+      }
+    },
+    {
+      "id": "CLE-RB",
+      "team": "CLE",
+      "name": "CLE RB",
+      "position": "RB",
+      "rating": 88,
+      "stats": {
+        "inside": 89,
+        "outside": 85,
+        "fumble": 12
+      }
+    },
+    {
+      "id": "CLE-WR1",
+      "team": "CLE",
+      "name": "CLE WR1",
+      "position": "WR1",
+      "rating": 89,
+      "stats": {
+        "catch": 96,
+        "route": 90
+      }
+    },
+    {
+      "id": "CLE-WR2",
+      "team": "CLE",
+      "name": "CLE WR2",
+      "position": "WR2",
+      "rating": 69,
+      "stats": {
+        "catch": 74,
+        "route": 74
+      }
+    },
+    {
+      "id": "CLE-WR3",
+      "team": "CLE",
+      "name": "CLE WR3",
+      "position": "WR3",
+      "rating": 90,
+      "stats": {
+        "catch": 100,
+        "route": 89
+      }
+    },
+    {
+      "id": "CLE-TE",
+      "team": "CLE",
+      "name": "CLE TE",
+      "position": "TE",
+      "rating": 83,
+      "stats": {
+        "catch": 90,
+        "route": 91
+      }
+    },
+    {
+      "id": "CLE-DT1",
+      "team": "CLE",
+      "name": "CLE DT1",
+      "position": "DT1",
+      "rating": 87,
+      "stats": {
+        "runD": 90,
+        "rush": 93,
+        "tackle": 93
+      }
+    },
+    {
+      "id": "CLE-DT2",
+      "team": "CLE",
+      "name": "CLE DT2",
+      "position": "DT2",
+      "rating": 89,
+      "stats": {
+        "runD": 93,
+        "rush": 88,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "CLE-DE1",
+      "team": "CLE",
+      "name": "CLE DE1",
+      "position": "DE1",
+      "rating": 81,
+      "stats": {
+        "runD": 84,
+        "rush": 83,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "CLE-DE2",
+      "team": "CLE",
+      "name": "CLE DE2",
+      "position": "DE2",
+      "rating": 88,
+      "stats": {
+        "runD": 92,
+        "rush": 91,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "CLE-LB1",
+      "team": "CLE",
+      "name": "CLE LB1",
+      "position": "LB1",
+      "rating": 89,
+      "stats": {
+        "runD": 97,
+        "rush": 91,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "CLE-LB2",
+      "team": "CLE",
+      "name": "CLE LB2",
+      "position": "LB2",
+      "rating": 84,
+      "stats": {
+        "runD": 92,
+        "rush": 86,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "CLE-LB3",
+      "team": "CLE",
+      "name": "CLE LB3",
+      "position": "LB3",
+      "rating": 78,
+      "stats": {
+        "runD": 82,
+        "rush": 76,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "CLE-CB1",
+      "team": "CLE",
+      "name": "CLE CB1",
+      "position": "CB1",
+      "rating": 66,
+      "stats": {
+        "cover": 66,
+        "tackle": 64
+      }
+    },
+    {
+      "id": "CLE-CB2",
+      "team": "CLE",
+      "name": "CLE CB2",
+      "position": "CB2",
+      "rating": 66,
+      "stats": {
+        "cover": 69,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "CLE-FS",
+      "team": "CLE",
+      "name": "CLE FS",
+      "position": "FS",
+      "rating": 75,
+      "stats": {
+        "cover": 83,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "CLE-SS",
+      "team": "CLE",
+      "name": "CLE SS",
+      "position": "SS",
+      "rating": 74,
+      "stats": {
+        "cover": 84,
+        "tackle": 80
+      }
+    }
+  ],
+  "DAL": [
+    {
+      "id": "DAL-QB",
+      "team": "DAL",
+      "name": "DAL QB",
+      "position": "QB",
+      "rating": 81,
+      "stats": {
+        "short": 86,
+        "deep": 85,
+        "int": 19
+      }
+    },
+    {
+      "id": "DAL-RB",
+      "team": "DAL",
+      "name": "DAL RB",
+      "position": "RB",
+      "rating": 82,
+      "stats": {
+        "inside": 88,
+        "outside": 80,
+        "fumble": 18
+      }
+    },
+    {
+      "id": "DAL-WR1",
+      "team": "DAL",
+      "name": "DAL WR1",
+      "position": "WR1",
+      "rating": 84,
+      "stats": {
+        "catch": 91,
+        "route": 88
+      }
+    },
+    {
+      "id": "DAL-WR2",
+      "team": "DAL",
+      "name": "DAL WR2",
+      "position": "WR2",
+      "rating": 69,
+      "stats": {
+        "catch": 75,
+        "route": 69
+      }
+    },
+    {
+      "id": "DAL-WR3",
+      "team": "DAL",
+      "name": "DAL WR3",
+      "position": "WR3",
+      "rating": 86,
+      "stats": {
+        "catch": 97,
+        "route": 94
+      }
+    },
+    {
+      "id": "DAL-TE",
+      "team": "DAL",
+      "name": "DAL TE",
+      "position": "TE",
+      "rating": 90,
+      "stats": {
+        "catch": 101,
+        "route": 93
+      }
+    },
+    {
+      "id": "DAL-DT1",
+      "team": "DAL",
+      "name": "DAL DT1",
+      "position": "DT1",
+      "rating": 84,
+      "stats": {
+        "runD": 90,
+        "rush": 83,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "DAL-DT2",
+      "team": "DAL",
+      "name": "DAL DT2",
+      "position": "DT2",
+      "rating": 68,
+      "stats": {
+        "runD": 73,
+        "rush": 67,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "DAL-DE1",
+      "team": "DAL",
+      "name": "DAL DE1",
+      "position": "DE1",
+      "rating": 72,
+      "stats": {
+        "runD": 76,
+        "rush": 72,
+        "tackle": 75
+      }
+    },
+    {
+      "id": "DAL-DE2",
+      "team": "DAL",
+      "name": "DAL DE2",
+      "position": "DE2",
+      "rating": 81,
+      "stats": {
+        "runD": 87,
+        "rush": 80,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "DAL-LB1",
+      "team": "DAL",
+      "name": "DAL LB1",
+      "position": "LB1",
+      "rating": 77,
+      "stats": {
+        "runD": 84,
+        "rush": 82,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "DAL-LB2",
+      "team": "DAL",
+      "name": "DAL LB2",
+      "position": "LB2",
+      "rating": 67,
+      "stats": {
+        "runD": 70,
+        "rush": 70,
+        "tackle": 70
+      }
+    },
+    {
+      "id": "DAL-LB3",
+      "team": "DAL",
+      "name": "DAL LB3",
+      "position": "LB3",
+      "rating": 87,
+      "stats": {
+        "runD": 95,
+        "rush": 89,
+        "tackle": 93
+      }
+    },
+    {
+      "id": "DAL-CB1",
+      "team": "DAL",
+      "name": "DAL CB1",
+      "position": "CB1",
+      "rating": 73,
+      "stats": {
+        "cover": 81,
+        "tackle": 75
+      }
+    },
+    {
+      "id": "DAL-CB2",
+      "team": "DAL",
+      "name": "DAL CB2",
+      "position": "CB2",
+      "rating": 76,
+      "stats": {
+        "cover": 87,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "DAL-FS",
+      "team": "DAL",
+      "name": "DAL FS",
+      "position": "FS",
+      "rating": 77,
+      "stats": {
+        "cover": 86,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "DAL-SS",
+      "team": "DAL",
+      "name": "DAL SS",
+      "position": "SS",
+      "rating": 65,
+      "stats": {
+        "cover": 69,
+        "tackle": 69
+      }
+    }
+  ],
+  "DEN": [
+    {
+      "id": "DEN-QB",
+      "team": "DEN",
+      "name": "DEN QB",
+      "position": "QB",
+      "rating": 86,
+      "stats": {
+        "short": 87,
+        "deep": 83,
+        "int": 14
+      }
+    },
+    {
+      "id": "DEN-RB",
+      "team": "DEN",
+      "name": "DEN RB",
+      "position": "RB",
+      "rating": 88,
+      "stats": {
+        "inside": 92,
+        "outside": 93,
+        "fumble": 12
+      }
+    },
+    {
+      "id": "DEN-WR1",
+      "team": "DEN",
+      "name": "DEN WR1",
+      "position": "WR1",
+      "rating": 77,
+      "stats": {
+        "catch": 86,
+        "route": 81
+      }
+    },
+    {
+      "id": "DEN-WR2",
+      "team": "DEN",
+      "name": "DEN WR2",
+      "position": "WR2",
+      "rating": 72,
+      "stats": {
+        "catch": 73,
+        "route": 70
+      }
+    },
+    {
+      "id": "DEN-WR3",
+      "team": "DEN",
+      "name": "DEN WR3",
+      "position": "WR3",
+      "rating": 90,
+      "stats": {
+        "catch": 94,
+        "route": 90
+      }
+    },
+    {
+      "id": "DEN-TE",
+      "team": "DEN",
+      "name": "DEN TE",
+      "position": "TE",
+      "rating": 76,
+      "stats": {
+        "catch": 76,
+        "route": 76
+      }
+    },
+    {
+      "id": "DEN-DT1",
+      "team": "DEN",
+      "name": "DEN DT1",
+      "position": "DT1",
+      "rating": 87,
+      "stats": {
+        "runD": 94,
+        "rush": 89,
+        "tackle": 91
+      }
+    },
+    {
+      "id": "DEN-DT2",
+      "team": "DEN",
+      "name": "DEN DT2",
+      "position": "DT2",
+      "rating": 80,
+      "stats": {
+        "runD": 82,
+        "rush": 78,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "DEN-DE1",
+      "team": "DEN",
+      "name": "DEN DE1",
+      "position": "DE1",
+      "rating": 90,
+      "stats": {
+        "runD": 95,
+        "rush": 95,
+        "tackle": 95
+      }
+    },
+    {
+      "id": "DEN-DE2",
+      "team": "DEN",
+      "name": "DEN DE2",
+      "position": "DE2",
+      "rating": 67,
+      "stats": {
+        "runD": 73,
+        "rush": 72,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "DEN-LB1",
+      "team": "DEN",
+      "name": "DEN LB1",
+      "position": "LB1",
+      "rating": 79,
+      "stats": {
+        "runD": 87,
+        "rush": 83,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "DEN-LB2",
+      "team": "DEN",
+      "name": "DEN LB2",
+      "position": "LB2",
+      "rating": 86,
+      "stats": {
+        "runD": 88,
+        "rush": 89,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "DEN-LB3",
+      "team": "DEN",
+      "name": "DEN LB3",
+      "position": "LB3",
+      "rating": 78,
+      "stats": {
+        "runD": 83,
+        "rush": 83,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "DEN-CB1",
+      "team": "DEN",
+      "name": "DEN CB1",
+      "position": "CB1",
+      "rating": 82,
+      "stats": {
+        "cover": 91,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "DEN-CB2",
+      "team": "DEN",
+      "name": "DEN CB2",
+      "position": "CB2",
+      "rating": 89,
+      "stats": {
+        "cover": 94,
+        "tackle": 93
+      }
+    },
+    {
+      "id": "DEN-FS",
+      "team": "DEN",
+      "name": "DEN FS",
+      "position": "FS",
+      "rating": 90,
+      "stats": {
+        "cover": 94,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "DEN-SS",
+      "team": "DEN",
+      "name": "DEN SS",
+      "position": "SS",
+      "rating": 75,
+      "stats": {
+        "cover": 77,
+        "tackle": 79
+      }
+    }
+  ],
+  "DET": [
+    {
+      "id": "DET-QB",
+      "team": "DET",
+      "name": "DET QB",
+      "position": "QB",
+      "rating": 80,
+      "stats": {
+        "short": 83,
+        "deep": 77,
+        "int": 20
+      }
+    },
+    {
+      "id": "DET-RB",
+      "team": "DET",
+      "name": "DET RB",
+      "position": "RB",
+      "rating": 71,
+      "stats": {
+        "inside": 81,
+        "outside": 71,
+        "fumble": 29
+      }
+    },
+    {
+      "id": "DET-WR1",
+      "team": "DET",
+      "name": "DET WR1",
+      "position": "WR1",
+      "rating": 83,
+      "stats": {
+        "catch": 90,
+        "route": 86
+      }
+    },
+    {
+      "id": "DET-WR2",
+      "team": "DET",
+      "name": "DET WR2",
+      "position": "WR2",
+      "rating": 72,
+      "stats": {
+        "catch": 73,
+        "route": 77
+      }
+    },
+    {
+      "id": "DET-WR3",
+      "team": "DET",
+      "name": "DET WR3",
+      "position": "WR3",
+      "rating": 81,
+      "stats": {
+        "catch": 89,
+        "route": 86
+      }
+    },
+    {
+      "id": "DET-TE",
+      "team": "DET",
+      "name": "DET TE",
+      "position": "TE",
+      "rating": 77,
+      "stats": {
+        "catch": 86,
+        "route": 81
+      }
+    },
+    {
+      "id": "DET-DT1",
+      "team": "DET",
+      "name": "DET DT1",
+      "position": "DT1",
+      "rating": 73,
+      "stats": {
+        "runD": 77,
+        "rush": 75,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "DET-DT2",
+      "team": "DET",
+      "name": "DET DT2",
+      "position": "DT2",
+      "rating": 84,
+      "stats": {
+        "runD": 92,
+        "rush": 88,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "DET-DE1",
+      "team": "DET",
+      "name": "DET DE1",
+      "position": "DE1",
+      "rating": 90,
+      "stats": {
+        "runD": 98,
+        "rush": 96,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "DET-DE2",
+      "team": "DET",
+      "name": "DET DE2",
+      "position": "DE2",
+      "rating": 76,
+      "stats": {
+        "runD": 81,
+        "rush": 77,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "DET-LB1",
+      "team": "DET",
+      "name": "DET LB1",
+      "position": "LB1",
+      "rating": 73,
+      "stats": {
+        "runD": 79,
+        "rush": 78,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "DET-LB2",
+      "team": "DET",
+      "name": "DET LB2",
+      "position": "LB2",
+      "rating": 75,
+      "stats": {
+        "runD": 82,
+        "rush": 75,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "DET-LB3",
+      "team": "DET",
+      "name": "DET LB3",
+      "position": "LB3",
+      "rating": 66,
+      "stats": {
+        "runD": 71,
+        "rush": 72,
+        "tackle": 71
+      }
+    },
+    {
+      "id": "DET-CB1",
+      "team": "DET",
+      "name": "DET CB1",
+      "position": "CB1",
+      "rating": 78,
+      "stats": {
+        "cover": 79,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "DET-CB2",
+      "team": "DET",
+      "name": "DET CB2",
+      "position": "CB2",
+      "rating": 75,
+      "stats": {
+        "cover": 81,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "DET-FS",
+      "team": "DET",
+      "name": "DET FS",
+      "position": "FS",
+      "rating": 78,
+      "stats": {
+        "cover": 90,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "DET-SS",
+      "team": "DET",
+      "name": "DET SS",
+      "position": "SS",
+      "rating": 84,
+      "stats": {
+        "cover": 90,
+        "tackle": 82
+      }
+    }
+  ],
+  "GB": [
+    {
+      "id": "GB-QB",
+      "team": "GB",
+      "name": "GB QB",
+      "position": "QB",
+      "rating": 68,
+      "stats": {
+        "short": 70,
+        "deep": 64,
+        "int": 32
+      }
+    },
+    {
+      "id": "GB-RB",
+      "team": "GB",
+      "name": "GB RB",
+      "position": "RB",
+      "rating": 80,
+      "stats": {
+        "inside": 80,
+        "outside": 77,
+        "fumble": 20
+      }
+    },
+    {
+      "id": "GB-WR1",
+      "team": "GB",
+      "name": "GB WR1",
+      "position": "WR1",
+      "rating": 71,
+      "stats": {
+        "catch": 73,
+        "route": 69
+      }
+    },
+    {
+      "id": "GB-WR2",
+      "team": "GB",
+      "name": "GB WR2",
+      "position": "WR2",
+      "rating": 72,
+      "stats": {
+        "catch": 80,
+        "route": 72
+      }
+    },
+    {
+      "id": "GB-WR3",
+      "team": "GB",
+      "name": "GB WR3",
+      "position": "WR3",
+      "rating": 66,
+      "stats": {
+        "catch": 70,
+        "route": 67
+      }
+    },
+    {
+      "id": "GB-TE",
+      "team": "GB",
+      "name": "GB TE",
+      "position": "TE",
+      "rating": 70,
+      "stats": {
+        "catch": 82,
+        "route": 68
+      }
+    },
+    {
+      "id": "GB-DT1",
+      "team": "GB",
+      "name": "GB DT1",
+      "position": "DT1",
+      "rating": 65,
+      "stats": {
+        "runD": 73,
+        "rush": 68,
+        "tackle": 66
+      }
+    },
+    {
+      "id": "GB-DT2",
+      "team": "GB",
+      "name": "GB DT2",
+      "position": "DT2",
+      "rating": 73,
+      "stats": {
+        "runD": 78,
+        "rush": 75,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "GB-DE1",
+      "team": "GB",
+      "name": "GB DE1",
+      "position": "DE1",
+      "rating": 71,
+      "stats": {
+        "runD": 79,
+        "rush": 69,
+        "tackle": 71
+      }
+    },
+    {
+      "id": "GB-DE2",
+      "team": "GB",
+      "name": "GB DE2",
+      "position": "DE2",
+      "rating": 83,
+      "stats": {
+        "runD": 88,
+        "rush": 83,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "GB-LB1",
+      "team": "GB",
+      "name": "GB LB1",
+      "position": "LB1",
+      "rating": 74,
+      "stats": {
+        "runD": 74,
+        "rush": 79,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "GB-LB2",
+      "team": "GB",
+      "name": "GB LB2",
+      "position": "LB2",
+      "rating": 85,
+      "stats": {
+        "runD": 86,
+        "rush": 88,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "GB-LB3",
+      "team": "GB",
+      "name": "GB LB3",
+      "position": "LB3",
+      "rating": 81,
+      "stats": {
+        "runD": 84,
+        "rush": 82,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "GB-CB1",
+      "team": "GB",
+      "name": "GB CB1",
+      "position": "CB1",
+      "rating": 83,
+      "stats": {
+        "cover": 84,
+        "tackle": 91
+      }
+    },
+    {
+      "id": "GB-CB2",
+      "team": "GB",
+      "name": "GB CB2",
+      "position": "CB2",
+      "rating": 73,
+      "stats": {
+        "cover": 85,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "GB-FS",
+      "team": "GB",
+      "name": "GB FS",
+      "position": "FS",
+      "rating": 89,
+      "stats": {
+        "cover": 96,
+        "tackle": 95
+      }
+    },
+    {
+      "id": "GB-SS",
+      "team": "GB",
+      "name": "GB SS",
+      "position": "SS",
+      "rating": 85,
+      "stats": {
+        "cover": 85,
+        "tackle": 84
+      }
+    }
+  ],
+  "HOU": [
+    {
+      "id": "HOU-QB",
+      "team": "HOU",
+      "name": "HOU QB",
+      "position": "QB",
+      "rating": 90,
+      "stats": {
+        "short": 100,
+        "deep": 88,
+        "int": 10
+      }
+    },
+    {
+      "id": "HOU-RB",
+      "team": "HOU",
+      "name": "HOU RB",
+      "position": "RB",
+      "rating": 67,
+      "stats": {
+        "inside": 68,
+        "outside": 71,
+        "fumble": 33
+      }
+    },
+    {
+      "id": "HOU-WR1",
+      "team": "HOU",
+      "name": "HOU WR1",
+      "position": "WR1",
+      "rating": 85,
+      "stats": {
+        "catch": 85,
+        "route": 85
+      }
+    },
+    {
+      "id": "HOU-WR2",
+      "team": "HOU",
+      "name": "HOU WR2",
+      "position": "WR2",
+      "rating": 72,
+      "stats": {
+        "catch": 79,
+        "route": 76
+      }
+    },
+    {
+      "id": "HOU-WR3",
+      "team": "HOU",
+      "name": "HOU WR3",
+      "position": "WR3",
+      "rating": 67,
+      "stats": {
+        "catch": 72,
+        "route": 74
+      }
+    },
+    {
+      "id": "HOU-TE",
+      "team": "HOU",
+      "name": "HOU TE",
+      "position": "TE",
+      "rating": 89,
+      "stats": {
+        "catch": 101,
+        "route": 94
+      }
+    },
+    {
+      "id": "HOU-DT1",
+      "team": "HOU",
+      "name": "HOU DT1",
+      "position": "DT1",
+      "rating": 65,
+      "stats": {
+        "runD": 67,
+        "rush": 63,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "HOU-DT2",
+      "team": "HOU",
+      "name": "HOU DT2",
+      "position": "DT2",
+      "rating": 88,
+      "stats": {
+        "runD": 94,
+        "rush": 91,
+        "tackle": 93
+      }
+    },
+    {
+      "id": "HOU-DE1",
+      "team": "HOU",
+      "name": "HOU DE1",
+      "position": "DE1",
+      "rating": 81,
+      "stats": {
+        "runD": 88,
+        "rush": 82,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "HOU-DE2",
+      "team": "HOU",
+      "name": "HOU DE2",
+      "position": "DE2",
+      "rating": 69,
+      "stats": {
+        "runD": 72,
+        "rush": 75,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "HOU-LB1",
+      "team": "HOU",
+      "name": "HOU LB1",
+      "position": "LB1",
+      "rating": 65,
+      "stats": {
+        "runD": 66,
+        "rush": 70,
+        "tackle": 67
+      }
+    },
+    {
+      "id": "HOU-LB2",
+      "team": "HOU",
+      "name": "HOU LB2",
+      "position": "LB2",
+      "rating": 68,
+      "stats": {
+        "runD": 69,
+        "rush": 66,
+        "tackle": 70
+      }
+    },
+    {
+      "id": "HOU-LB3",
+      "team": "HOU",
+      "name": "HOU LB3",
+      "position": "LB3",
+      "rating": 79,
+      "stats": {
+        "runD": 82,
+        "rush": 82,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "HOU-CB1",
+      "team": "HOU",
+      "name": "HOU CB1",
+      "position": "CB1",
+      "rating": 75,
+      "stats": {
+        "cover": 84,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "HOU-CB2",
+      "team": "HOU",
+      "name": "HOU CB2",
+      "position": "CB2",
+      "rating": 71,
+      "stats": {
+        "cover": 74,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "HOU-FS",
+      "team": "HOU",
+      "name": "HOU FS",
+      "position": "FS",
+      "rating": 65,
+      "stats": {
+        "cover": 74,
+        "tackle": 66
+      }
+    },
+    {
+      "id": "HOU-SS",
+      "team": "HOU",
+      "name": "HOU SS",
+      "position": "SS",
+      "rating": 90,
+      "stats": {
+        "cover": 96,
+        "tackle": 91
+      }
+    }
+  ],
+  "IND": [
+    {
+      "id": "IND-QB",
+      "team": "IND",
+      "name": "IND QB",
+      "position": "QB",
+      "rating": 82,
+      "stats": {
+        "short": 82,
+        "deep": 80,
+        "int": 18
+      }
+    },
+    {
+      "id": "IND-RB",
+      "team": "IND",
+      "name": "IND RB",
+      "position": "RB",
+      "rating": 82,
+      "stats": {
+        "inside": 90,
+        "outside": 87,
+        "fumble": 18
+      }
+    },
+    {
+      "id": "IND-WR1",
+      "team": "IND",
+      "name": "IND WR1",
+      "position": "WR1",
+      "rating": 70,
+      "stats": {
+        "catch": 74,
+        "route": 75
+      }
+    },
+    {
+      "id": "IND-WR2",
+      "team": "IND",
+      "name": "IND WR2",
+      "position": "WR2",
+      "rating": 84,
+      "stats": {
+        "catch": 90,
+        "route": 84
+      }
+    },
+    {
+      "id": "IND-WR3",
+      "team": "IND",
+      "name": "IND WR3",
+      "position": "WR3",
+      "rating": 84,
+      "stats": {
+        "catch": 93,
+        "route": 91
+      }
+    },
+    {
+      "id": "IND-TE",
+      "team": "IND",
+      "name": "IND TE",
+      "position": "TE",
+      "rating": 90,
+      "stats": {
+        "catch": 101,
+        "route": 92
+      }
+    },
+    {
+      "id": "IND-DT1",
+      "team": "IND",
+      "name": "IND DT1",
+      "position": "DT1",
+      "rating": 67,
+      "stats": {
+        "runD": 69,
+        "rush": 67,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "IND-DT2",
+      "team": "IND",
+      "name": "IND DT2",
+      "position": "DT2",
+      "rating": 74,
+      "stats": {
+        "runD": 76,
+        "rush": 74,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "IND-DE1",
+      "team": "IND",
+      "name": "IND DE1",
+      "position": "DE1",
+      "rating": 79,
+      "stats": {
+        "runD": 84,
+        "rush": 83,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "IND-DE2",
+      "team": "IND",
+      "name": "IND DE2",
+      "position": "DE2",
+      "rating": 79,
+      "stats": {
+        "runD": 83,
+        "rush": 84,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "IND-LB1",
+      "team": "IND",
+      "name": "IND LB1",
+      "position": "LB1",
+      "rating": 77,
+      "stats": {
+        "runD": 84,
+        "rush": 83,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "IND-LB2",
+      "team": "IND",
+      "name": "IND LB2",
+      "position": "LB2",
+      "rating": 90,
+      "stats": {
+        "runD": 92,
+        "rush": 89,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "IND-LB3",
+      "team": "IND",
+      "name": "IND LB3",
+      "position": "LB3",
+      "rating": 75,
+      "stats": {
+        "runD": 80,
+        "rush": 73,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "IND-CB1",
+      "team": "IND",
+      "name": "IND CB1",
+      "position": "CB1",
+      "rating": 74,
+      "stats": {
+        "cover": 74,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "IND-CB2",
+      "team": "IND",
+      "name": "IND CB2",
+      "position": "CB2",
+      "rating": 82,
+      "stats": {
+        "cover": 89,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "IND-FS",
+      "team": "IND",
+      "name": "IND FS",
+      "position": "FS",
+      "rating": 76,
+      "stats": {
+        "cover": 76,
+        "tackle": 75
+      }
+    },
+    {
+      "id": "IND-SS",
+      "team": "IND",
+      "name": "IND SS",
+      "position": "SS",
+      "rating": 78,
+      "stats": {
+        "cover": 86,
+        "tackle": 79
+      }
+    }
+  ],
+  "JAX": [
+    {
+      "id": "JAX-QB",
+      "team": "JAX",
+      "name": "JAX QB",
+      "position": "QB",
+      "rating": 77,
+      "stats": {
+        "short": 83,
+        "deep": 76,
+        "int": 23
+      }
+    },
+    {
+      "id": "JAX-RB",
+      "team": "JAX",
+      "name": "JAX RB",
+      "position": "RB",
+      "rating": 65,
+      "stats": {
+        "inside": 67,
+        "outside": 69,
+        "fumble": 35
+      }
+    },
+    {
+      "id": "JAX-WR1",
+      "team": "JAX",
+      "name": "JAX WR1",
+      "position": "WR1",
+      "rating": 65,
+      "stats": {
+        "catch": 74,
+        "route": 72
+      }
+    },
+    {
+      "id": "JAX-WR2",
+      "team": "JAX",
+      "name": "JAX WR2",
+      "position": "WR2",
+      "rating": 70,
+      "stats": {
+        "catch": 72,
+        "route": 73
+      }
+    },
+    {
+      "id": "JAX-WR3",
+      "team": "JAX",
+      "name": "JAX WR3",
+      "position": "WR3",
+      "rating": 65,
+      "stats": {
+        "catch": 77,
+        "route": 67
+      }
+    },
+    {
+      "id": "JAX-TE",
+      "team": "JAX",
+      "name": "JAX TE",
+      "position": "TE",
+      "rating": 66,
+      "stats": {
+        "catch": 68,
+        "route": 70
+      }
+    },
+    {
+      "id": "JAX-DT1",
+      "team": "JAX",
+      "name": "JAX DT1",
+      "position": "DT1",
+      "rating": 76,
+      "stats": {
+        "runD": 83,
+        "rush": 76,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "JAX-DT2",
+      "team": "JAX",
+      "name": "JAX DT2",
+      "position": "DT2",
+      "rating": 72,
+      "stats": {
+        "runD": 77,
+        "rush": 72,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "JAX-DE1",
+      "team": "JAX",
+      "name": "JAX DE1",
+      "position": "DE1",
+      "rating": 69,
+      "stats": {
+        "runD": 75,
+        "rush": 71,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "JAX-DE2",
+      "team": "JAX",
+      "name": "JAX DE2",
+      "position": "DE2",
+      "rating": 65,
+      "stats": {
+        "runD": 72,
+        "rush": 63,
+        "tackle": 65
+      }
+    },
+    {
+      "id": "JAX-LB1",
+      "team": "JAX",
+      "name": "JAX LB1",
+      "position": "LB1",
+      "rating": 72,
+      "stats": {
+        "runD": 72,
+        "rush": 76,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "JAX-LB2",
+      "team": "JAX",
+      "name": "JAX LB2",
+      "position": "LB2",
+      "rating": 89,
+      "stats": {
+        "runD": 90,
+        "rush": 87,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "JAX-LB3",
+      "team": "JAX",
+      "name": "JAX LB3",
+      "position": "LB3",
+      "rating": 76,
+      "stats": {
+        "runD": 79,
+        "rush": 81,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "JAX-CB1",
+      "team": "JAX",
+      "name": "JAX CB1",
+      "position": "CB1",
+      "rating": 68,
+      "stats": {
+        "cover": 77,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "JAX-CB2",
+      "team": "JAX",
+      "name": "JAX CB2",
+      "position": "CB2",
+      "rating": 72,
+      "stats": {
+        "cover": 72,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "JAX-FS",
+      "team": "JAX",
+      "name": "JAX FS",
+      "position": "FS",
+      "rating": 86,
+      "stats": {
+        "cover": 87,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "JAX-SS",
+      "team": "JAX",
+      "name": "JAX SS",
+      "position": "SS",
+      "rating": 85,
+      "stats": {
+        "cover": 89,
+        "tackle": 93
+      }
+    }
+  ],
+  "KC": [
+    {
+      "id": "KC-QB",
+      "team": "KC",
+      "name": "KC QB",
+      "position": "QB",
+      "rating": 75,
+      "stats": {
+        "short": 79,
+        "deep": 76,
+        "int": 25
+      }
+    },
+    {
+      "id": "KC-RB",
+      "team": "KC",
+      "name": "KC RB",
+      "position": "RB",
+      "rating": 68,
+      "stats": {
+        "inside": 78,
+        "outside": 66,
+        "fumble": 32
+      }
+    },
+    {
+      "id": "KC-WR1",
+      "team": "KC",
+      "name": "KC WR1",
+      "position": "WR1",
+      "rating": 90,
+      "stats": {
+        "catch": 98,
+        "route": 89
+      }
+    },
+    {
+      "id": "KC-WR2",
+      "team": "KC",
+      "name": "KC WR2",
+      "position": "WR2",
+      "rating": 70,
+      "stats": {
+        "catch": 72,
+        "route": 75
+      }
+    },
+    {
+      "id": "KC-WR3",
+      "team": "KC",
+      "name": "KC WR3",
+      "position": "WR3",
+      "rating": 74,
+      "stats": {
+        "catch": 85,
+        "route": 76
+      }
+    },
+    {
+      "id": "KC-TE",
+      "team": "KC",
+      "name": "KC TE",
+      "position": "TE",
+      "rating": 84,
+      "stats": {
+        "catch": 95,
+        "route": 82
+      }
+    },
+    {
+      "id": "KC-DT1",
+      "team": "KC",
+      "name": "KC DT1",
+      "position": "DT1",
+      "rating": 74,
+      "stats": {
+        "runD": 76,
+        "rush": 73,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "KC-DT2",
+      "team": "KC",
+      "name": "KC DT2",
+      "position": "DT2",
+      "rating": 79,
+      "stats": {
+        "runD": 81,
+        "rush": 84,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "KC-DE1",
+      "team": "KC",
+      "name": "KC DE1",
+      "position": "DE1",
+      "rating": 74,
+      "stats": {
+        "runD": 78,
+        "rush": 76,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "KC-DE2",
+      "team": "KC",
+      "name": "KC DE2",
+      "position": "DE2",
+      "rating": 73,
+      "stats": {
+        "runD": 81,
+        "rush": 75,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "KC-LB1",
+      "team": "KC",
+      "name": "KC LB1",
+      "position": "LB1",
+      "rating": 90,
+      "stats": {
+        "runD": 97,
+        "rush": 89,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "KC-LB2",
+      "team": "KC",
+      "name": "KC LB2",
+      "position": "LB2",
+      "rating": 84,
+      "stats": {
+        "runD": 85,
+        "rush": 90,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "KC-LB3",
+      "team": "KC",
+      "name": "KC LB3",
+      "position": "LB3",
+      "rating": 90,
+      "stats": {
+        "runD": 94,
+        "rush": 92,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "KC-CB1",
+      "team": "KC",
+      "name": "KC CB1",
+      "position": "CB1",
+      "rating": 71,
+      "stats": {
+        "cover": 79,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "KC-CB2",
+      "team": "KC",
+      "name": "KC CB2",
+      "position": "CB2",
+      "rating": 68,
+      "stats": {
+        "cover": 69,
+        "tackle": 67
+      }
+    },
+    {
+      "id": "KC-FS",
+      "team": "KC",
+      "name": "KC FS",
+      "position": "FS",
+      "rating": 89,
+      "stats": {
+        "cover": 100,
+        "tackle": 95
+      }
+    },
+    {
+      "id": "KC-SS",
+      "team": "KC",
+      "name": "KC SS",
+      "position": "SS",
+      "rating": 86,
+      "stats": {
+        "cover": 90,
+        "tackle": 89
+      }
+    }
+  ],
+  "MIA": [
+    {
+      "id": "MIA-QB",
+      "team": "MIA",
+      "name": "MIA QB",
+      "position": "QB",
+      "rating": 68,
+      "stats": {
+        "short": 72,
+        "deep": 64,
+        "int": 32
+      }
+    },
+    {
+      "id": "MIA-RB",
+      "team": "MIA",
+      "name": "MIA RB",
+      "position": "RB",
+      "rating": 89,
+      "stats": {
+        "inside": 98,
+        "outside": 93,
+        "fumble": 11
+      }
+    },
+    {
+      "id": "MIA-WR1",
+      "team": "MIA",
+      "name": "MIA WR1",
+      "position": "WR1",
+      "rating": 65,
+      "stats": {
+        "catch": 69,
+        "route": 73
+      }
+    },
+    {
+      "id": "MIA-WR2",
+      "team": "MIA",
+      "name": "MIA WR2",
+      "position": "WR2",
+      "rating": 68,
+      "stats": {
+        "catch": 77,
+        "route": 69
+      }
+    },
+    {
+      "id": "MIA-WR3",
+      "team": "MIA",
+      "name": "MIA WR3",
+      "position": "WR3",
+      "rating": 76,
+      "stats": {
+        "catch": 80,
+        "route": 74
+      }
+    },
+    {
+      "id": "MIA-TE",
+      "team": "MIA",
+      "name": "MIA TE",
+      "position": "TE",
+      "rating": 74,
+      "stats": {
+        "catch": 78,
+        "route": 78
+      }
+    },
+    {
+      "id": "MIA-DT1",
+      "team": "MIA",
+      "name": "MIA DT1",
+      "position": "DT1",
+      "rating": 84,
+      "stats": {
+        "runD": 88,
+        "rush": 83,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "MIA-DT2",
+      "team": "MIA",
+      "name": "MIA DT2",
+      "position": "DT2",
+      "rating": 78,
+      "stats": {
+        "runD": 80,
+        "rush": 81,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "MIA-DE1",
+      "team": "MIA",
+      "name": "MIA DE1",
+      "position": "DE1",
+      "rating": 76,
+      "stats": {
+        "runD": 82,
+        "rush": 80,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "MIA-DE2",
+      "team": "MIA",
+      "name": "MIA DE2",
+      "position": "DE2",
+      "rating": 78,
+      "stats": {
+        "runD": 78,
+        "rush": 79,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "MIA-LB1",
+      "team": "MIA",
+      "name": "MIA LB1",
+      "position": "LB1",
+      "rating": 82,
+      "stats": {
+        "runD": 90,
+        "rush": 80,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "MIA-LB2",
+      "team": "MIA",
+      "name": "MIA LB2",
+      "position": "LB2",
+      "rating": 86,
+      "stats": {
+        "runD": 87,
+        "rush": 89,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "MIA-LB3",
+      "team": "MIA",
+      "name": "MIA LB3",
+      "position": "LB3",
+      "rating": 77,
+      "stats": {
+        "runD": 84,
+        "rush": 79,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "MIA-CB1",
+      "team": "MIA",
+      "name": "MIA CB1",
+      "position": "CB1",
+      "rating": 66,
+      "stats": {
+        "cover": 78,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "MIA-CB2",
+      "team": "MIA",
+      "name": "MIA CB2",
+      "position": "CB2",
+      "rating": 66,
+      "stats": {
+        "cover": 74,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "MIA-FS",
+      "team": "MIA",
+      "name": "MIA FS",
+      "position": "FS",
+      "rating": 90,
+      "stats": {
+        "cover": 98,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "MIA-SS",
+      "team": "MIA",
+      "name": "MIA SS",
+      "position": "SS",
+      "rating": 80,
+      "stats": {
+        "cover": 85,
+        "tackle": 87
+      }
+    }
+  ],
+  "MIN": [
+    {
+      "id": "MIN-QB",
+      "team": "MIN",
+      "name": "MIN QB",
+      "position": "QB",
+      "rating": 75,
+      "stats": {
+        "short": 77,
+        "deep": 78,
+        "int": 25
+      }
+    },
+    {
+      "id": "MIN-RB",
+      "team": "MIN",
+      "name": "MIN RB",
+      "position": "RB",
+      "rating": 88,
+      "stats": {
+        "inside": 93,
+        "outside": 91,
+        "fumble": 12
+      }
+    },
+    {
+      "id": "MIN-WR1",
+      "team": "MIN",
+      "name": "MIN WR1",
+      "position": "WR1",
+      "rating": 86,
+      "stats": {
+        "catch": 86,
+        "route": 93
+      }
+    },
+    {
+      "id": "MIN-WR2",
+      "team": "MIN",
+      "name": "MIN WR2",
+      "position": "WR2",
+      "rating": 84,
+      "stats": {
+        "catch": 84,
+        "route": 82
+      }
+    },
+    {
+      "id": "MIN-WR3",
+      "team": "MIN",
+      "name": "MIN WR3",
+      "position": "WR3",
+      "rating": 78,
+      "stats": {
+        "catch": 89,
+        "route": 83
+      }
+    },
+    {
+      "id": "MIN-TE",
+      "team": "MIN",
+      "name": "MIN TE",
+      "position": "TE",
+      "rating": 82,
+      "stats": {
+        "catch": 93,
+        "route": 83
+      }
+    },
+    {
+      "id": "MIN-DT1",
+      "team": "MIN",
+      "name": "MIN DT1",
+      "position": "DT1",
+      "rating": 73,
+      "stats": {
+        "runD": 73,
+        "rush": 79,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "MIN-DT2",
+      "team": "MIN",
+      "name": "MIN DT2",
+      "position": "DT2",
+      "rating": 89,
+      "stats": {
+        "runD": 95,
+        "rush": 91,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "MIN-DE1",
+      "team": "MIN",
+      "name": "MIN DE1",
+      "position": "DE1",
+      "rating": 80,
+      "stats": {
+        "runD": 87,
+        "rush": 85,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "MIN-DE2",
+      "team": "MIN",
+      "name": "MIN DE2",
+      "position": "DE2",
+      "rating": 71,
+      "stats": {
+        "runD": 74,
+        "rush": 76,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "MIN-LB1",
+      "team": "MIN",
+      "name": "MIN LB1",
+      "position": "LB1",
+      "rating": 77,
+      "stats": {
+        "runD": 82,
+        "rush": 82,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "MIN-LB2",
+      "team": "MIN",
+      "name": "MIN LB2",
+      "position": "LB2",
+      "rating": 88,
+      "stats": {
+        "runD": 96,
+        "rush": 86,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "MIN-LB3",
+      "team": "MIN",
+      "name": "MIN LB3",
+      "position": "LB3",
+      "rating": 88,
+      "stats": {
+        "runD": 95,
+        "rush": 92,
+        "tackle": 92
+      }
+    },
+    {
+      "id": "MIN-CB1",
+      "team": "MIN",
+      "name": "MIN CB1",
+      "position": "CB1",
+      "rating": 75,
+      "stats": {
+        "cover": 75,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "MIN-CB2",
+      "team": "MIN",
+      "name": "MIN CB2",
+      "position": "CB2",
+      "rating": 74,
+      "stats": {
+        "cover": 82,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "MIN-FS",
+      "team": "MIN",
+      "name": "MIN FS",
+      "position": "FS",
+      "rating": 79,
+      "stats": {
+        "cover": 86,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "MIN-SS",
+      "team": "MIN",
+      "name": "MIN SS",
+      "position": "SS",
+      "rating": 84,
+      "stats": {
+        "cover": 86,
+        "tackle": 82
+      }
+    }
+  ],
+  "NE": [
+    {
+      "id": "NE-QB",
+      "team": "NE",
+      "name": "Tom Brady",
+      "position": "QB",
+      "rating": 74,
+      "stats": {
+        "short": 78,
+        "deep": 79,
+        "int": 26
+      }
+    },
+    {
+      "id": "NE-RB",
+      "team": "NE",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "rating": 81,
+      "stats": {
+        "inside": 82,
+        "outside": 86,
+        "fumble": 19
+      }
+    },
+    {
+      "id": "NE-WR1",
+      "team": "NE",
+      "name": "Wes Welker",
+      "position": "WR1",
+      "rating": 66,
+      "stats": {
+        "catch": 73,
+        "route": 67
+      }
+    },
+    {
+      "id": "NE-WR2",
+      "team": "NE",
+      "name": "Randy Moss",
+      "position": "WR2",
+      "rating": 66,
+      "stats": {
+        "catch": 72,
+        "route": 64
+      }
+    },
+    {
+      "id": "NE-WR3",
+      "team": "NE",
+      "name": "Jabar Gaffney",
+      "position": "WR3",
+      "rating": 80,
+      "stats": {
+        "catch": 83,
+        "route": 78
+      }
+    },
+    {
+      "id": "NE-TE",
+      "team": "NE",
+      "name": "Benjamin Watson",
+      "position": "TE",
+      "rating": 80,
+      "stats": {
+        "catch": 82,
+        "route": 88
+      }
+    },
+    {
+      "id": "NE-DT1",
+      "team": "NE",
+      "name": "NE DT1",
+      "position": "DT1",
+      "rating": 79,
+      "stats": {
+        "runD": 79,
+        "rush": 83,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "NE-DT2",
+      "team": "NE",
+      "name": "NE DT2",
+      "position": "DT2",
+      "rating": 77,
+      "stats": {
+        "runD": 83,
+        "rush": 83,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "NE-DE1",
+      "team": "NE",
+      "name": "NE DE1",
+      "position": "DE1",
+      "rating": 78,
+      "stats": {
+        "runD": 82,
+        "rush": 79,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "NE-DE2",
+      "team": "NE",
+      "name": "NE DE2",
+      "position": "DE2",
+      "rating": 81,
+      "stats": {
+        "runD": 83,
+        "rush": 86,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "NE-LB1",
+      "team": "NE",
+      "name": "NE LB1",
+      "position": "LB1",
+      "rating": 76,
+      "stats": {
+        "runD": 82,
+        "rush": 74,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "NE-LB2",
+      "team": "NE",
+      "name": "NE LB2",
+      "position": "LB2",
+      "rating": 90,
+      "stats": {
+        "runD": 94,
+        "rush": 96,
+        "tackle": 95
+      }
+    },
+    {
+      "id": "NE-LB3",
+      "team": "NE",
+      "name": "NE LB3",
+      "position": "LB3",
+      "rating": 71,
+      "stats": {
+        "runD": 72,
+        "rush": 76,
+        "tackle": 71
+      }
+    },
+    {
+      "id": "NE-CB1",
+      "team": "NE",
+      "name": "NE CB1",
+      "position": "CB1",
+      "rating": 81,
+      "stats": {
+        "cover": 83,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "NE-CB2",
+      "team": "NE",
+      "name": "NE CB2",
+      "position": "CB2",
+      "rating": 69,
+      "stats": {
+        "cover": 72,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "NE-FS",
+      "team": "NE",
+      "name": "NE FS",
+      "position": "FS",
+      "rating": 88,
+      "stats": {
+        "cover": 88,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "NE-SS",
+      "team": "NE",
+      "name": "NE SS",
+      "position": "SS",
+      "rating": 65,
+      "stats": {
+        "cover": 69,
+        "tackle": 68
+      }
+    }
+  ],
+  "NO": [
+    {
+      "id": "NO-QB",
+      "team": "NO",
+      "name": "NO QB",
+      "position": "QB",
+      "rating": 72,
+      "stats": {
+        "short": 76,
+        "deep": 67,
+        "int": 28
+      }
+    },
+    {
+      "id": "NO-RB",
+      "team": "NO",
+      "name": "NO RB",
+      "position": "RB",
+      "rating": 80,
+      "stats": {
+        "inside": 80,
+        "outside": 77,
+        "fumble": 20
+      }
+    },
+    {
+      "id": "NO-WR1",
+      "team": "NO",
+      "name": "NO WR1",
+      "position": "WR1",
+      "rating": 69,
+      "stats": {
+        "catch": 72,
+        "route": 68
+      }
+    },
+    {
+      "id": "NO-WR2",
+      "team": "NO",
+      "name": "NO WR2",
+      "position": "WR2",
+      "rating": 73,
+      "stats": {
+        "catch": 79,
+        "route": 80
+      }
+    },
+    {
+      "id": "NO-WR3",
+      "team": "NO",
+      "name": "NO WR3",
+      "position": "WR3",
+      "rating": 77,
+      "stats": {
+        "catch": 77,
+        "route": 79
+      }
+    },
+    {
+      "id": "NO-TE",
+      "team": "NO",
+      "name": "NO TE",
+      "position": "TE",
+      "rating": 88,
+      "stats": {
+        "catch": 88,
+        "route": 88
+      }
+    },
+    {
+      "id": "NO-DT1",
+      "team": "NO",
+      "name": "NO DT1",
+      "position": "DT1",
+      "rating": 69,
+      "stats": {
+        "runD": 75,
+        "rush": 68,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "NO-DT2",
+      "team": "NO",
+      "name": "NO DT2",
+      "position": "DT2",
+      "rating": 90,
+      "stats": {
+        "runD": 95,
+        "rush": 92,
+        "tackle": 96
+      }
+    },
+    {
+      "id": "NO-DE1",
+      "team": "NO",
+      "name": "NO DE1",
+      "position": "DE1",
+      "rating": 65,
+      "stats": {
+        "runD": 65,
+        "rush": 66,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "NO-DE2",
+      "team": "NO",
+      "name": "NO DE2",
+      "position": "DE2",
+      "rating": 67,
+      "stats": {
+        "runD": 68,
+        "rush": 70,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "NO-LB1",
+      "team": "NO",
+      "name": "NO LB1",
+      "position": "LB1",
+      "rating": 86,
+      "stats": {
+        "runD": 86,
+        "rush": 92,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "NO-LB2",
+      "team": "NO",
+      "name": "NO LB2",
+      "position": "LB2",
+      "rating": 78,
+      "stats": {
+        "runD": 78,
+        "rush": 80,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "NO-LB3",
+      "team": "NO",
+      "name": "NO LB3",
+      "position": "LB3",
+      "rating": 80,
+      "stats": {
+        "runD": 84,
+        "rush": 82,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "NO-CB1",
+      "team": "NO",
+      "name": "NO CB1",
+      "position": "CB1",
+      "rating": 90,
+      "stats": {
+        "cover": 99,
+        "tackle": 97
+      }
+    },
+    {
+      "id": "NO-CB2",
+      "team": "NO",
+      "name": "NO CB2",
+      "position": "CB2",
+      "rating": 76,
+      "stats": {
+        "cover": 77,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "NO-FS",
+      "team": "NO",
+      "name": "NO FS",
+      "position": "FS",
+      "rating": 71,
+      "stats": {
+        "cover": 71,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "NO-SS",
+      "team": "NO",
+      "name": "NO SS",
+      "position": "SS",
+      "rating": 90,
+      "stats": {
+        "cover": 93,
+        "tackle": 98
+      }
+    }
+  ],
+  "NYG": [
+    {
+      "id": "NYG-QB",
+      "team": "NYG",
+      "name": "Eli Manning",
+      "position": "QB",
+      "rating": 65,
+      "stats": {
+        "short": 67,
+        "deep": 62,
+        "int": 35
+      }
+    },
+    {
+      "id": "NYG-RB",
+      "team": "NYG",
+      "name": "Brandon Jacobs",
+      "position": "RB",
+      "rating": 78,
+      "stats": {
+        "inside": 78,
+        "outside": 78,
+        "fumble": 22
+      }
+    },
+    {
+      "id": "NYG-WR1",
+      "team": "NYG",
+      "name": "Plaxico Burress",
+      "position": "WR1",
+      "rating": 75,
+      "stats": {
+        "catch": 87,
+        "route": 79
+      }
+    },
+    {
+      "id": "NYG-WR2",
+      "team": "NYG",
+      "name": "Amani Toomer",
+      "position": "WR2",
+      "rating": 84,
+      "stats": {
+        "catch": 96,
+        "route": 87
+      }
+    },
+    {
+      "id": "NYG-WR3",
+      "team": "NYG",
+      "name": "Steve Smith",
+      "position": "WR3",
+      "rating": 68,
+      "stats": {
+        "catch": 74,
+        "route": 68
+      }
+    },
+    {
+      "id": "NYG-TE",
+      "team": "NYG",
+      "name": "Kevin Boss",
+      "position": "TE",
+      "rating": 88,
+      "stats": {
+        "catch": 98,
+        "route": 91
+      }
+    },
+    {
+      "id": "NYG-DT1",
+      "team": "NYG",
+      "name": "NYG DT1",
+      "position": "DT1",
+      "rating": 65,
+      "stats": {
+        "runD": 66,
+        "rush": 69,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "NYG-DT2",
+      "team": "NYG",
+      "name": "NYG DT2",
+      "position": "DT2",
+      "rating": 78,
+      "stats": {
+        "runD": 78,
+        "rush": 76,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "NYG-DE1",
+      "team": "NYG",
+      "name": "NYG DE1",
+      "position": "DE1",
+      "rating": 89,
+      "stats": {
+        "runD": 91,
+        "rush": 88,
+        "tackle": 95
+      }
+    },
+    {
+      "id": "NYG-DE2",
+      "team": "NYG",
+      "name": "NYG DE2",
+      "position": "DE2",
+      "rating": 72,
+      "stats": {
+        "runD": 78,
+        "rush": 71,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "NYG-LB1",
+      "team": "NYG",
+      "name": "NYG LB1",
+      "position": "LB1",
+      "rating": 66,
+      "stats": {
+        "runD": 67,
+        "rush": 72,
+        "tackle": 68
+      }
+    },
+    {
+      "id": "NYG-LB2",
+      "team": "NYG",
+      "name": "NYG LB2",
+      "position": "LB2",
+      "rating": 90,
+      "stats": {
+        "runD": 90,
+        "rush": 91,
+        "tackle": 94
+      }
+    },
+    {
+      "id": "NYG-LB3",
+      "team": "NYG",
+      "name": "NYG LB3",
+      "position": "LB3",
+      "rating": 70,
+      "stats": {
+        "runD": 76,
+        "rush": 74,
+        "tackle": 71
+      }
+    },
+    {
+      "id": "NYG-CB1",
+      "team": "NYG",
+      "name": "NYG CB1",
+      "position": "CB1",
+      "rating": 81,
+      "stats": {
+        "cover": 86,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "NYG-CB2",
+      "team": "NYG",
+      "name": "NYG CB2",
+      "position": "CB2",
+      "rating": 86,
+      "stats": {
+        "cover": 93,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "NYG-FS",
+      "team": "NYG",
+      "name": "NYG FS",
+      "position": "FS",
+      "rating": 86,
+      "stats": {
+        "cover": 93,
+        "tackle": 93
+      }
+    },
+    {
+      "id": "NYG-SS",
+      "team": "NYG",
+      "name": "NYG SS",
+      "position": "SS",
+      "rating": 81,
+      "stats": {
+        "cover": 81,
+        "tackle": 87
+      }
+    }
+  ],
+  "NYJ": [
+    {
+      "id": "NYJ-QB",
+      "team": "NYJ",
+      "name": "NYJ QB",
+      "position": "QB",
+      "rating": 76,
+      "stats": {
+        "short": 86,
+        "deep": 74,
+        "int": 24
+      }
+    },
+    {
+      "id": "NYJ-RB",
+      "team": "NYJ",
+      "name": "NYJ RB",
+      "position": "RB",
+      "rating": 81,
+      "stats": {
+        "inside": 88,
+        "outside": 79,
+        "fumble": 19
+      }
+    },
+    {
+      "id": "NYJ-WR1",
+      "team": "NYJ",
+      "name": "NYJ WR1",
+      "position": "WR1",
+      "rating": 73,
+      "stats": {
+        "catch": 73,
+        "route": 81
+      }
+    },
+    {
+      "id": "NYJ-WR2",
+      "team": "NYJ",
+      "name": "NYJ WR2",
+      "position": "WR2",
+      "rating": 70,
+      "stats": {
+        "catch": 81,
+        "route": 76
+      }
+    },
+    {
+      "id": "NYJ-WR3",
+      "team": "NYJ",
+      "name": "NYJ WR3",
+      "position": "WR3",
+      "rating": 83,
+      "stats": {
+        "catch": 88,
+        "route": 86
+      }
+    },
+    {
+      "id": "NYJ-TE",
+      "team": "NYJ",
+      "name": "NYJ TE",
+      "position": "TE",
+      "rating": 79,
+      "stats": {
+        "catch": 83,
+        "route": 80
+      }
+    },
+    {
+      "id": "NYJ-DT1",
+      "team": "NYJ",
+      "name": "NYJ DT1",
+      "position": "DT1",
+      "rating": 90,
+      "stats": {
+        "runD": 97,
+        "rush": 91,
+        "tackle": 92
+      }
+    },
+    {
+      "id": "NYJ-DT2",
+      "team": "NYJ",
+      "name": "NYJ DT2",
+      "position": "DT2",
+      "rating": 75,
+      "stats": {
+        "runD": 83,
+        "rush": 75,
+        "tackle": 75
+      }
+    },
+    {
+      "id": "NYJ-DE1",
+      "team": "NYJ",
+      "name": "NYJ DE1",
+      "position": "DE1",
+      "rating": 78,
+      "stats": {
+        "runD": 85,
+        "rush": 79,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "NYJ-DE2",
+      "team": "NYJ",
+      "name": "NYJ DE2",
+      "position": "DE2",
+      "rating": 87,
+      "stats": {
+        "runD": 88,
+        "rush": 87,
+        "tackle": 92
+      }
+    },
+    {
+      "id": "NYJ-LB1",
+      "team": "NYJ",
+      "name": "NYJ LB1",
+      "position": "LB1",
+      "rating": 78,
+      "stats": {
+        "runD": 79,
+        "rush": 78,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "NYJ-LB2",
+      "team": "NYJ",
+      "name": "NYJ LB2",
+      "position": "LB2",
+      "rating": 65,
+      "stats": {
+        "runD": 73,
+        "rush": 70,
+        "tackle": 69
+      }
+    },
+    {
+      "id": "NYJ-LB3",
+      "team": "NYJ",
+      "name": "NYJ LB3",
+      "position": "LB3",
+      "rating": 74,
+      "stats": {
+        "runD": 80,
+        "rush": 78,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "NYJ-CB1",
+      "team": "NYJ",
+      "name": "NYJ CB1",
+      "position": "CB1",
+      "rating": 67,
+      "stats": {
+        "cover": 68,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "NYJ-CB2",
+      "team": "NYJ",
+      "name": "NYJ CB2",
+      "position": "CB2",
+      "rating": 68,
+      "stats": {
+        "cover": 74,
+        "tackle": 75
+      }
+    },
+    {
+      "id": "NYJ-FS",
+      "team": "NYJ",
+      "name": "NYJ FS",
+      "position": "FS",
+      "rating": 66,
+      "stats": {
+        "cover": 71,
+        "tackle": 67
+      }
+    },
+    {
+      "id": "NYJ-SS",
+      "team": "NYJ",
+      "name": "NYJ SS",
+      "position": "SS",
+      "rating": 83,
+      "stats": {
+        "cover": 90,
+        "tackle": 90
+      }
+    }
+  ],
+  "OAK": [
+    {
+      "id": "OAK-QB",
+      "team": "OAK",
+      "name": "OAK QB",
+      "position": "QB",
+      "rating": 71,
+      "stats": {
+        "short": 75,
+        "deep": 76,
+        "int": 29
+      }
+    },
+    {
+      "id": "OAK-RB",
+      "team": "OAK",
+      "name": "OAK RB",
+      "position": "RB",
+      "rating": 78,
+      "stats": {
+        "inside": 78,
+        "outside": 82,
+        "fumble": 22
+      }
+    },
+    {
+      "id": "OAK-WR1",
+      "team": "OAK",
+      "name": "OAK WR1",
+      "position": "WR1",
+      "rating": 85,
+      "stats": {
+        "catch": 85,
+        "route": 89
+      }
+    },
+    {
+      "id": "OAK-WR2",
+      "team": "OAK",
+      "name": "OAK WR2",
+      "position": "WR2",
+      "rating": 71,
+      "stats": {
+        "catch": 80,
+        "route": 79
+      }
+    },
+    {
+      "id": "OAK-WR3",
+      "team": "OAK",
+      "name": "OAK WR3",
+      "position": "WR3",
+      "rating": 86,
+      "stats": {
+        "catch": 96,
+        "route": 89
+      }
+    },
+    {
+      "id": "OAK-TE",
+      "team": "OAK",
+      "name": "OAK TE",
+      "position": "TE",
+      "rating": 84,
+      "stats": {
+        "catch": 85,
+        "route": 88
+      }
+    },
+    {
+      "id": "OAK-DT1",
+      "team": "OAK",
+      "name": "OAK DT1",
+      "position": "DT1",
+      "rating": 75,
+      "stats": {
+        "runD": 81,
+        "rush": 73,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "OAK-DT2",
+      "team": "OAK",
+      "name": "OAK DT2",
+      "position": "DT2",
+      "rating": 76,
+      "stats": {
+        "runD": 80,
+        "rush": 78,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "OAK-DE1",
+      "team": "OAK",
+      "name": "OAK DE1",
+      "position": "DE1",
+      "rating": 79,
+      "stats": {
+        "runD": 79,
+        "rush": 84,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "OAK-DE2",
+      "team": "OAK",
+      "name": "OAK DE2",
+      "position": "DE2",
+      "rating": 77,
+      "stats": {
+        "runD": 79,
+        "rush": 75,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "OAK-LB1",
+      "team": "OAK",
+      "name": "OAK LB1",
+      "position": "LB1",
+      "rating": 81,
+      "stats": {
+        "runD": 89,
+        "rush": 84,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "OAK-LB2",
+      "team": "OAK",
+      "name": "OAK LB2",
+      "position": "LB2",
+      "rating": 76,
+      "stats": {
+        "runD": 80,
+        "rush": 75,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "OAK-LB3",
+      "team": "OAK",
+      "name": "OAK LB3",
+      "position": "LB3",
+      "rating": 82,
+      "stats": {
+        "runD": 83,
+        "rush": 86,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "OAK-CB1",
+      "team": "OAK",
+      "name": "OAK CB1",
+      "position": "CB1",
+      "rating": 78,
+      "stats": {
+        "cover": 84,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "OAK-CB2",
+      "team": "OAK",
+      "name": "OAK CB2",
+      "position": "CB2",
+      "rating": 86,
+      "stats": {
+        "cover": 92,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "OAK-FS",
+      "team": "OAK",
+      "name": "OAK FS",
+      "position": "FS",
+      "rating": 74,
+      "stats": {
+        "cover": 76,
+        "tackle": 75
+      }
+    },
+    {
+      "id": "OAK-SS",
+      "team": "OAK",
+      "name": "OAK SS",
+      "position": "SS",
+      "rating": 87,
+      "stats": {
+        "cover": 89,
+        "tackle": 94
+      }
+    }
+  ],
+  "PHI": [
+    {
+      "id": "PHI-QB",
+      "team": "PHI",
+      "name": "PHI QB",
+      "position": "QB",
+      "rating": 89,
+      "stats": {
+        "short": 94,
+        "deep": 88,
+        "int": 11
+      }
+    },
+    {
+      "id": "PHI-RB",
+      "team": "PHI",
+      "name": "PHI RB",
+      "position": "RB",
+      "rating": 71,
+      "stats": {
+        "inside": 74,
+        "outside": 73,
+        "fumble": 29
+      }
+    },
+    {
+      "id": "PHI-WR1",
+      "team": "PHI",
+      "name": "PHI WR1",
+      "position": "WR1",
+      "rating": 90,
+      "stats": {
+        "catch": 101,
+        "route": 93
+      }
+    },
+    {
+      "id": "PHI-WR2",
+      "team": "PHI",
+      "name": "PHI WR2",
+      "position": "WR2",
+      "rating": 79,
+      "stats": {
+        "catch": 90,
+        "route": 77
+      }
+    },
+    {
+      "id": "PHI-WR3",
+      "team": "PHI",
+      "name": "PHI WR3",
+      "position": "WR3",
+      "rating": 87,
+      "stats": {
+        "catch": 88,
+        "route": 95
+      }
+    },
+    {
+      "id": "PHI-TE",
+      "team": "PHI",
+      "name": "PHI TE",
+      "position": "TE",
+      "rating": 77,
+      "stats": {
+        "catch": 79,
+        "route": 77
+      }
+    },
+    {
+      "id": "PHI-DT1",
+      "team": "PHI",
+      "name": "PHI DT1",
+      "position": "DT1",
+      "rating": 68,
+      "stats": {
+        "runD": 68,
+        "rush": 72,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "PHI-DT2",
+      "team": "PHI",
+      "name": "PHI DT2",
+      "position": "DT2",
+      "rating": 71,
+      "stats": {
+        "runD": 78,
+        "rush": 69,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "PHI-DE1",
+      "team": "PHI",
+      "name": "PHI DE1",
+      "position": "DE1",
+      "rating": 87,
+      "stats": {
+        "runD": 89,
+        "rush": 87,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "PHI-DE2",
+      "team": "PHI",
+      "name": "PHI DE2",
+      "position": "DE2",
+      "rating": 85,
+      "stats": {
+        "runD": 89,
+        "rush": 91,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "PHI-LB1",
+      "team": "PHI",
+      "name": "PHI LB1",
+      "position": "LB1",
+      "rating": 83,
+      "stats": {
+        "runD": 88,
+        "rush": 86,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "PHI-LB2",
+      "team": "PHI",
+      "name": "PHI LB2",
+      "position": "LB2",
+      "rating": 79,
+      "stats": {
+        "runD": 85,
+        "rush": 81,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "PHI-LB3",
+      "team": "PHI",
+      "name": "PHI LB3",
+      "position": "LB3",
+      "rating": 88,
+      "stats": {
+        "runD": 90,
+        "rush": 94,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "PHI-CB1",
+      "team": "PHI",
+      "name": "PHI CB1",
+      "position": "CB1",
+      "rating": 69,
+      "stats": {
+        "cover": 80,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "PHI-CB2",
+      "team": "PHI",
+      "name": "PHI CB2",
+      "position": "CB2",
+      "rating": 82,
+      "stats": {
+        "cover": 94,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "PHI-FS",
+      "team": "PHI",
+      "name": "PHI FS",
+      "position": "FS",
+      "rating": 82,
+      "stats": {
+        "cover": 85,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "PHI-SS",
+      "team": "PHI",
+      "name": "PHI SS",
+      "position": "SS",
+      "rating": 84,
+      "stats": {
+        "cover": 93,
+        "tackle": 86
+      }
+    }
+  ],
+  "PIT": [
+    {
+      "id": "PIT-QB",
+      "team": "PIT",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "rating": 75,
+      "stats": {
+        "short": 84,
+        "deep": 80,
+        "int": 25
+      }
+    },
+    {
+      "id": "PIT-RB",
+      "team": "PIT",
+      "name": "Willie Parker",
+      "position": "RB",
+      "rating": 75,
+      "stats": {
+        "inside": 80,
+        "outside": 79,
+        "fumble": 25
+      }
+    },
+    {
+      "id": "PIT-WR1",
+      "team": "PIT",
+      "name": "Hines Ward",
+      "position": "WR1",
+      "rating": 73,
+      "stats": {
+        "catch": 84,
+        "route": 72
+      }
+    },
+    {
+      "id": "PIT-WR2",
+      "team": "PIT",
+      "name": "Santonio Holmes",
+      "position": "WR2",
+      "rating": 80,
+      "stats": {
+        "catch": 80,
+        "route": 83
+      }
+    },
+    {
+      "id": "PIT-WR3",
+      "team": "PIT",
+      "name": "PIT WR3",
+      "position": "WR3",
+      "rating": 79,
+      "stats": {
+        "catch": 87,
+        "route": 82
+      }
+    },
+    {
+      "id": "PIT-TE",
+      "team": "PIT",
+      "name": "Heath Miller",
+      "position": "TE",
+      "rating": 86,
+      "stats": {
+        "catch": 91,
+        "route": 88
+      }
+    },
+    {
+      "id": "PIT-DT1",
+      "team": "PIT",
+      "name": "PIT DT1",
+      "position": "DT1",
+      "rating": 80,
+      "stats": {
+        "runD": 87,
+        "rush": 84,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "PIT-DT2",
+      "team": "PIT",
+      "name": "PIT DT2",
+      "position": "DT2",
+      "rating": 81,
+      "stats": {
+        "runD": 88,
+        "rush": 87,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "PIT-DE1",
+      "team": "PIT",
+      "name": "PIT DE1",
+      "position": "DE1",
+      "rating": 69,
+      "stats": {
+        "runD": 74,
+        "rush": 67,
+        "tackle": 70
+      }
+    },
+    {
+      "id": "PIT-DE2",
+      "team": "PIT",
+      "name": "PIT DE2",
+      "position": "DE2",
+      "rating": 77,
+      "stats": {
+        "runD": 83,
+        "rush": 76,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "PIT-LB1",
+      "team": "PIT",
+      "name": "PIT LB1",
+      "position": "LB1",
+      "rating": 87,
+      "stats": {
+        "runD": 95,
+        "rush": 90,
+        "tackle": 92
+      }
+    },
+    {
+      "id": "PIT-LB2",
+      "team": "PIT",
+      "name": "PIT LB2",
+      "position": "LB2",
+      "rating": 87,
+      "stats": {
+        "runD": 88,
+        "rush": 90,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "PIT-LB3",
+      "team": "PIT",
+      "name": "PIT LB3",
+      "position": "LB3",
+      "rating": 76,
+      "stats": {
+        "runD": 78,
+        "rush": 74,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "PIT-CB1",
+      "team": "PIT",
+      "name": "PIT CB1",
+      "position": "CB1",
+      "rating": 74,
+      "stats": {
+        "cover": 84,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "PIT-CB2",
+      "team": "PIT",
+      "name": "PIT CB2",
+      "position": "CB2",
+      "rating": 80,
+      "stats": {
+        "cover": 84,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "PIT-FS",
+      "team": "PIT",
+      "name": "PIT FS",
+      "position": "FS",
+      "rating": 87,
+      "stats": {
+        "cover": 91,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "PIT-SS",
+      "team": "PIT",
+      "name": "PIT SS",
+      "position": "SS",
+      "rating": 82,
+      "stats": {
+        "cover": 85,
+        "tackle": 81
+      }
+    }
+  ],
+  "SD": [
+    {
+      "id": "SD-QB",
+      "team": "SD",
+      "name": "SD QB",
+      "position": "QB",
+      "rating": 77,
+      "stats": {
+        "short": 78,
+        "deep": 73,
+        "int": 23
+      }
+    },
+    {
+      "id": "SD-RB",
+      "team": "SD",
+      "name": "SD RB",
+      "position": "RB",
+      "rating": 69,
+      "stats": {
+        "inside": 79,
+        "outside": 71,
+        "fumble": 31
+      }
+    },
+    {
+      "id": "SD-WR1",
+      "team": "SD",
+      "name": "SD WR1",
+      "position": "WR1",
+      "rating": 66,
+      "stats": {
+        "catch": 77,
+        "route": 69
+      }
+    },
+    {
+      "id": "SD-WR2",
+      "team": "SD",
+      "name": "SD WR2",
+      "position": "WR2",
+      "rating": 87,
+      "stats": {
+        "catch": 99,
+        "route": 91
+      }
+    },
+    {
+      "id": "SD-WR3",
+      "team": "SD",
+      "name": "SD WR3",
+      "position": "WR3",
+      "rating": 68,
+      "stats": {
+        "catch": 75,
+        "route": 66
+      }
+    },
+    {
+      "id": "SD-TE",
+      "team": "SD",
+      "name": "SD TE",
+      "position": "TE",
+      "rating": 68,
+      "stats": {
+        "catch": 70,
+        "route": 68
+      }
+    },
+    {
+      "id": "SD-DT1",
+      "team": "SD",
+      "name": "SD DT1",
+      "position": "DT1",
+      "rating": 82,
+      "stats": {
+        "runD": 85,
+        "rush": 86,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "SD-DT2",
+      "team": "SD",
+      "name": "SD DT2",
+      "position": "DT2",
+      "rating": 82,
+      "stats": {
+        "runD": 89,
+        "rush": 84,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "SD-DE1",
+      "team": "SD",
+      "name": "SD DE1",
+      "position": "DE1",
+      "rating": 82,
+      "stats": {
+        "runD": 84,
+        "rush": 83,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "SD-DE2",
+      "team": "SD",
+      "name": "SD DE2",
+      "position": "DE2",
+      "rating": 90,
+      "stats": {
+        "runD": 91,
+        "rush": 96,
+        "tackle": 92
+      }
+    },
+    {
+      "id": "SD-LB1",
+      "team": "SD",
+      "name": "SD LB1",
+      "position": "LB1",
+      "rating": 84,
+      "stats": {
+        "runD": 84,
+        "rush": 90,
+        "tackle": 90
+      }
+    },
+    {
+      "id": "SD-LB2",
+      "team": "SD",
+      "name": "SD LB2",
+      "position": "LB2",
+      "rating": 88,
+      "stats": {
+        "runD": 88,
+        "rush": 90,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "SD-LB3",
+      "team": "SD",
+      "name": "SD LB3",
+      "position": "LB3",
+      "rating": 84,
+      "stats": {
+        "runD": 88,
+        "rush": 87,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "SD-CB1",
+      "team": "SD",
+      "name": "SD CB1",
+      "position": "CB1",
+      "rating": 72,
+      "stats": {
+        "cover": 76,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "SD-CB2",
+      "team": "SD",
+      "name": "SD CB2",
+      "position": "CB2",
+      "rating": 75,
+      "stats": {
+        "cover": 78,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "SD-FS",
+      "team": "SD",
+      "name": "SD FS",
+      "position": "FS",
+      "rating": 66,
+      "stats": {
+        "cover": 76,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "SD-SS",
+      "team": "SD",
+      "name": "SD SS",
+      "position": "SS",
+      "rating": 77,
+      "stats": {
+        "cover": 83,
+        "tackle": 80
+      }
+    }
+  ],
+  "SEA": [
+    {
+      "id": "SEA-QB",
+      "team": "SEA",
+      "name": "SEA QB",
+      "position": "QB",
+      "rating": 85,
+      "stats": {
+        "short": 88,
+        "deep": 88,
+        "int": 15
+      }
+    },
+    {
+      "id": "SEA-RB",
+      "team": "SEA",
+      "name": "SEA RB",
+      "position": "RB",
+      "rating": 80,
+      "stats": {
+        "inside": 83,
+        "outside": 85,
+        "fumble": 20
+      }
+    },
+    {
+      "id": "SEA-WR1",
+      "team": "SEA",
+      "name": "SEA WR1",
+      "position": "WR1",
+      "rating": 75,
+      "stats": {
+        "catch": 78,
+        "route": 81
+      }
+    },
+    {
+      "id": "SEA-WR2",
+      "team": "SEA",
+      "name": "SEA WR2",
+      "position": "WR2",
+      "rating": 71,
+      "stats": {
+        "catch": 82,
+        "route": 69
+      }
+    },
+    {
+      "id": "SEA-WR3",
+      "team": "SEA",
+      "name": "SEA WR3",
+      "position": "WR3",
+      "rating": 78,
+      "stats": {
+        "catch": 85,
+        "route": 82
+      }
+    },
+    {
+      "id": "SEA-TE",
+      "team": "SEA",
+      "name": "SEA TE",
+      "position": "TE",
+      "rating": 81,
+      "stats": {
+        "catch": 88,
+        "route": 89
+      }
+    },
+    {
+      "id": "SEA-DT1",
+      "team": "SEA",
+      "name": "SEA DT1",
+      "position": "DT1",
+      "rating": 73,
+      "stats": {
+        "runD": 81,
+        "rush": 76,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "SEA-DT2",
+      "team": "SEA",
+      "name": "SEA DT2",
+      "position": "DT2",
+      "rating": 73,
+      "stats": {
+        "runD": 75,
+        "rush": 75,
+        "tackle": 77
+      }
+    },
+    {
+      "id": "SEA-DE1",
+      "team": "SEA",
+      "name": "SEA DE1",
+      "position": "DE1",
+      "rating": 65,
+      "stats": {
+        "runD": 67,
+        "rush": 67,
+        "tackle": 70
+      }
+    },
+    {
+      "id": "SEA-DE2",
+      "team": "SEA",
+      "name": "SEA DE2",
+      "position": "DE2",
+      "rating": 83,
+      "stats": {
+        "runD": 84,
+        "rush": 86,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "SEA-LB1",
+      "team": "SEA",
+      "name": "SEA LB1",
+      "position": "LB1",
+      "rating": 82,
+      "stats": {
+        "runD": 83,
+        "rush": 88,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "SEA-LB2",
+      "team": "SEA",
+      "name": "SEA LB2",
+      "position": "LB2",
+      "rating": 82,
+      "stats": {
+        "runD": 86,
+        "rush": 84,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "SEA-LB3",
+      "team": "SEA",
+      "name": "SEA LB3",
+      "position": "LB3",
+      "rating": 90,
+      "stats": {
+        "runD": 90,
+        "rush": 96,
+        "tackle": 91
+      }
+    },
+    {
+      "id": "SEA-CB1",
+      "team": "SEA",
+      "name": "SEA CB1",
+      "position": "CB1",
+      "rating": 82,
+      "stats": {
+        "cover": 91,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "SEA-CB2",
+      "team": "SEA",
+      "name": "SEA CB2",
+      "position": "CB2",
+      "rating": 72,
+      "stats": {
+        "cover": 84,
+        "tackle": 71
+      }
+    },
+    {
+      "id": "SEA-FS",
+      "team": "SEA",
+      "name": "SEA FS",
+      "position": "FS",
+      "rating": 75,
+      "stats": {
+        "cover": 85,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "SEA-SS",
+      "team": "SEA",
+      "name": "SEA SS",
+      "position": "SS",
+      "rating": 84,
+      "stats": {
+        "cover": 94,
+        "tackle": 91
+      }
+    }
+  ],
+  "SF": [
+    {
+      "id": "SF-QB",
+      "team": "SF",
+      "name": "SF QB",
+      "position": "QB",
+      "rating": 86,
+      "stats": {
+        "short": 86,
+        "deep": 84,
+        "int": 14
+      }
+    },
+    {
+      "id": "SF-RB",
+      "team": "SF",
+      "name": "SF RB",
+      "position": "RB",
+      "rating": 84,
+      "stats": {
+        "inside": 86,
+        "outside": 86,
+        "fumble": 16
+      }
+    },
+    {
+      "id": "SF-WR1",
+      "team": "SF",
+      "name": "SF WR1",
+      "position": "WR1",
+      "rating": 88,
+      "stats": {
+        "catch": 99,
+        "route": 95
+      }
+    },
+    {
+      "id": "SF-WR2",
+      "team": "SF",
+      "name": "SF WR2",
+      "position": "WR2",
+      "rating": 89,
+      "stats": {
+        "catch": 99,
+        "route": 89
+      }
+    },
+    {
+      "id": "SF-WR3",
+      "team": "SF",
+      "name": "SF WR3",
+      "position": "WR3",
+      "rating": 73,
+      "stats": {
+        "catch": 82,
+        "route": 81
+      }
+    },
+    {
+      "id": "SF-TE",
+      "team": "SF",
+      "name": "SF TE",
+      "position": "TE",
+      "rating": 87,
+      "stats": {
+        "catch": 98,
+        "route": 95
+      }
+    },
+    {
+      "id": "SF-DT1",
+      "team": "SF",
+      "name": "SF DT1",
+      "position": "DT1",
+      "rating": 87,
+      "stats": {
+        "runD": 92,
+        "rush": 85,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "SF-DT2",
+      "team": "SF",
+      "name": "SF DT2",
+      "position": "DT2",
+      "rating": 78,
+      "stats": {
+        "runD": 84,
+        "rush": 77,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "SF-DE1",
+      "team": "SF",
+      "name": "SF DE1",
+      "position": "DE1",
+      "rating": 67,
+      "stats": {
+        "runD": 70,
+        "rush": 65,
+        "tackle": 68
+      }
+    },
+    {
+      "id": "SF-DE2",
+      "team": "SF",
+      "name": "SF DE2",
+      "position": "DE2",
+      "rating": 73,
+      "stats": {
+        "runD": 73,
+        "rush": 75,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "SF-LB1",
+      "team": "SF",
+      "name": "SF LB1",
+      "position": "LB1",
+      "rating": 80,
+      "stats": {
+        "runD": 86,
+        "rush": 79,
+        "tackle": 82
+      }
+    },
+    {
+      "id": "SF-LB2",
+      "team": "SF",
+      "name": "SF LB2",
+      "position": "LB2",
+      "rating": 73,
+      "stats": {
+        "runD": 77,
+        "rush": 79,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "SF-LB3",
+      "team": "SF",
+      "name": "SF LB3",
+      "position": "LB3",
+      "rating": 85,
+      "stats": {
+        "runD": 92,
+        "rush": 86,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "SF-CB1",
+      "team": "SF",
+      "name": "SF CB1",
+      "position": "CB1",
+      "rating": 66,
+      "stats": {
+        "cover": 72,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "SF-CB2",
+      "team": "SF",
+      "name": "SF CB2",
+      "position": "CB2",
+      "rating": 66,
+      "stats": {
+        "cover": 77,
+        "tackle": 72
+      }
+    },
+    {
+      "id": "SF-FS",
+      "team": "SF",
+      "name": "SF FS",
+      "position": "FS",
+      "rating": 85,
+      "stats": {
+        "cover": 88,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "SF-SS",
+      "team": "SF",
+      "name": "SF SS",
+      "position": "SS",
+      "rating": 68,
+      "stats": {
+        "cover": 78,
+        "tackle": 74
+      }
+    }
+  ],
+  "STL": [
+    {
+      "id": "STL-QB",
+      "team": "STL",
+      "name": "STL QB",
+      "position": "QB",
+      "rating": 83,
+      "stats": {
+        "short": 83,
+        "deep": 78,
+        "int": 17
+      }
+    },
+    {
+      "id": "STL-RB",
+      "team": "STL",
+      "name": "STL RB",
+      "position": "RB",
+      "rating": 85,
+      "stats": {
+        "inside": 91,
+        "outside": 85,
+        "fumble": 15
+      }
+    },
+    {
+      "id": "STL-WR1",
+      "team": "STL",
+      "name": "STL WR1",
+      "position": "WR1",
+      "rating": 86,
+      "stats": {
+        "catch": 88,
+        "route": 84
+      }
+    },
+    {
+      "id": "STL-WR2",
+      "team": "STL",
+      "name": "STL WR2",
+      "position": "WR2",
+      "rating": 75,
+      "stats": {
+        "catch": 82,
+        "route": 78
+      }
+    },
+    {
+      "id": "STL-WR3",
+      "team": "STL",
+      "name": "STL WR3",
+      "position": "WR3",
+      "rating": 90,
+      "stats": {
+        "catch": 97,
+        "route": 95
+      }
+    },
+    {
+      "id": "STL-TE",
+      "team": "STL",
+      "name": "STL TE",
+      "position": "TE",
+      "rating": 82,
+      "stats": {
+        "catch": 88,
+        "route": 84
+      }
+    },
+    {
+      "id": "STL-DT1",
+      "team": "STL",
+      "name": "STL DT1",
+      "position": "DT1",
+      "rating": 73,
+      "stats": {
+        "runD": 75,
+        "rush": 75,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "STL-DT2",
+      "team": "STL",
+      "name": "STL DT2",
+      "position": "DT2",
+      "rating": 81,
+      "stats": {
+        "runD": 87,
+        "rush": 86,
+        "tackle": 86
+      }
+    },
+    {
+      "id": "STL-DE1",
+      "team": "STL",
+      "name": "STL DE1",
+      "position": "DE1",
+      "rating": 70,
+      "stats": {
+        "runD": 70,
+        "rush": 75,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "STL-DE2",
+      "team": "STL",
+      "name": "STL DE2",
+      "position": "DE2",
+      "rating": 85,
+      "stats": {
+        "runD": 86,
+        "rush": 85,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "STL-LB1",
+      "team": "STL",
+      "name": "STL LB1",
+      "position": "LB1",
+      "rating": 79,
+      "stats": {
+        "runD": 82,
+        "rush": 78,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "STL-LB2",
+      "team": "STL",
+      "name": "STL LB2",
+      "position": "LB2",
+      "rating": 80,
+      "stats": {
+        "runD": 81,
+        "rush": 83,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "STL-LB3",
+      "team": "STL",
+      "name": "STL LB3",
+      "position": "LB3",
+      "rating": 83,
+      "stats": {
+        "runD": 86,
+        "rush": 89,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "STL-CB1",
+      "team": "STL",
+      "name": "STL CB1",
+      "position": "CB1",
+      "rating": 72,
+      "stats": {
+        "cover": 84,
+        "tackle": 71
+      }
+    },
+    {
+      "id": "STL-CB2",
+      "team": "STL",
+      "name": "STL CB2",
+      "position": "CB2",
+      "rating": 77,
+      "stats": {
+        "cover": 84,
+        "tackle": 85
+      }
+    },
+    {
+      "id": "STL-FS",
+      "team": "STL",
+      "name": "STL FS",
+      "position": "FS",
+      "rating": 71,
+      "stats": {
+        "cover": 76,
+        "tackle": 75
+      }
+    },
+    {
+      "id": "STL-SS",
+      "team": "STL",
+      "name": "STL SS",
+      "position": "SS",
+      "rating": 68,
+      "stats": {
+        "cover": 77,
+        "tackle": 72
+      }
+    }
+  ],
+  "TB": [
+    {
+      "id": "TB-QB",
+      "team": "TB",
+      "name": "TB QB",
+      "position": "QB",
+      "rating": 78,
+      "stats": {
+        "short": 80,
+        "deep": 79,
+        "int": 22
+      }
+    },
+    {
+      "id": "TB-RB",
+      "team": "TB",
+      "name": "TB RB",
+      "position": "RB",
+      "rating": 70,
+      "stats": {
+        "inside": 77,
+        "outside": 68,
+        "fumble": 30
+      }
+    },
+    {
+      "id": "TB-WR1",
+      "team": "TB",
+      "name": "TB WR1",
+      "position": "WR1",
+      "rating": 88,
+      "stats": {
+        "catch": 93,
+        "route": 92
+      }
+    },
+    {
+      "id": "TB-WR2",
+      "team": "TB",
+      "name": "TB WR2",
+      "position": "WR2",
+      "rating": 75,
+      "stats": {
+        "catch": 85,
+        "route": 78
+      }
+    },
+    {
+      "id": "TB-WR3",
+      "team": "TB",
+      "name": "TB WR3",
+      "position": "WR3",
+      "rating": 74,
+      "stats": {
+        "catch": 78,
+        "route": 72
+      }
+    },
+    {
+      "id": "TB-TE",
+      "team": "TB",
+      "name": "TB TE",
+      "position": "TE",
+      "rating": 90,
+      "stats": {
+        "catch": 93,
+        "route": 94
+      }
+    },
+    {
+      "id": "TB-DT1",
+      "team": "TB",
+      "name": "TB DT1",
+      "position": "DT1",
+      "rating": 72,
+      "stats": {
+        "runD": 74,
+        "rush": 77,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "TB-DT2",
+      "team": "TB",
+      "name": "TB DT2",
+      "position": "DT2",
+      "rating": 85,
+      "stats": {
+        "runD": 89,
+        "rush": 88,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "TB-DE1",
+      "team": "TB",
+      "name": "TB DE1",
+      "position": "DE1",
+      "rating": 87,
+      "stats": {
+        "runD": 91,
+        "rush": 86,
+        "tackle": 92
+      }
+    },
+    {
+      "id": "TB-DE2",
+      "team": "TB",
+      "name": "TB DE2",
+      "position": "DE2",
+      "rating": 68,
+      "stats": {
+        "runD": 69,
+        "rush": 66,
+        "tackle": 70
+      }
+    },
+    {
+      "id": "TB-LB1",
+      "team": "TB",
+      "name": "TB LB1",
+      "position": "LB1",
+      "rating": 78,
+      "stats": {
+        "runD": 80,
+        "rush": 78,
+        "tackle": 80
+      }
+    },
+    {
+      "id": "TB-LB2",
+      "team": "TB",
+      "name": "TB LB2",
+      "position": "LB2",
+      "rating": 85,
+      "stats": {
+        "runD": 92,
+        "rush": 86,
+        "tackle": 88
+      }
+    },
+    {
+      "id": "TB-LB3",
+      "team": "TB",
+      "name": "TB LB3",
+      "position": "LB3",
+      "rating": 65,
+      "stats": {
+        "runD": 66,
+        "rush": 70,
+        "tackle": 66
+      }
+    },
+    {
+      "id": "TB-CB1",
+      "team": "TB",
+      "name": "TB CB1",
+      "position": "CB1",
+      "rating": 76,
+      "stats": {
+        "cover": 80,
+        "tackle": 78
+      }
+    },
+    {
+      "id": "TB-CB2",
+      "team": "TB",
+      "name": "TB CB2",
+      "position": "CB2",
+      "rating": 67,
+      "stats": {
+        "cover": 77,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "TB-FS",
+      "team": "TB",
+      "name": "TB FS",
+      "position": "FS",
+      "rating": 72,
+      "stats": {
+        "cover": 78,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "TB-SS",
+      "team": "TB",
+      "name": "TB SS",
+      "position": "SS",
+      "rating": 80,
+      "stats": {
+        "cover": 86,
+        "tackle": 83
+      }
+    }
+  ],
+  "TEN": [
+    {
+      "id": "TEN-QB",
+      "team": "TEN",
+      "name": "TEN QB",
+      "position": "QB",
+      "rating": 88,
+      "stats": {
+        "short": 98,
+        "deep": 87,
+        "int": 12
+      }
+    },
+    {
+      "id": "TEN-RB",
+      "team": "TEN",
+      "name": "TEN RB",
+      "position": "RB",
+      "rating": 82,
+      "stats": {
+        "inside": 89,
+        "outside": 87,
+        "fumble": 18
+      }
+    },
+    {
+      "id": "TEN-WR1",
+      "team": "TEN",
+      "name": "TEN WR1",
+      "position": "WR1",
+      "rating": 81,
+      "stats": {
+        "catch": 87,
+        "route": 82
+      }
+    },
+    {
+      "id": "TEN-WR2",
+      "team": "TEN",
+      "name": "TEN WR2",
+      "position": "WR2",
+      "rating": 90,
+      "stats": {
+        "catch": 99,
+        "route": 88
+      }
+    },
+    {
+      "id": "TEN-WR3",
+      "team": "TEN",
+      "name": "TEN WR3",
+      "position": "WR3",
+      "rating": 74,
+      "stats": {
+        "catch": 81,
+        "route": 77
+      }
+    },
+    {
+      "id": "TEN-TE",
+      "team": "TEN",
+      "name": "TEN TE",
+      "position": "TE",
+      "rating": 70,
+      "stats": {
+        "catch": 73,
+        "route": 70
+      }
+    },
+    {
+      "id": "TEN-DT1",
+      "team": "TEN",
+      "name": "TEN DT1",
+      "position": "DT1",
+      "rating": 88,
+      "stats": {
+        "runD": 92,
+        "rush": 89,
+        "tackle": 93
+      }
+    },
+    {
+      "id": "TEN-DT2",
+      "team": "TEN",
+      "name": "TEN DT2",
+      "position": "DT2",
+      "rating": 74,
+      "stats": {
+        "runD": 80,
+        "rush": 72,
+        "tackle": 74
+      }
+    },
+    {
+      "id": "TEN-DE1",
+      "team": "TEN",
+      "name": "TEN DE1",
+      "position": "DE1",
+      "rating": 78,
+      "stats": {
+        "runD": 82,
+        "rush": 81,
+        "tackle": 81
+      }
+    },
+    {
+      "id": "TEN-DE2",
+      "team": "TEN",
+      "name": "TEN DE2",
+      "position": "DE2",
+      "rating": 79,
+      "stats": {
+        "runD": 85,
+        "rush": 79,
+        "tackle": 83
+      }
+    },
+    {
+      "id": "TEN-LB1",
+      "team": "TEN",
+      "name": "TEN LB1",
+      "position": "LB1",
+      "rating": 87,
+      "stats": {
+        "runD": 94,
+        "rush": 85,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "TEN-LB2",
+      "team": "TEN",
+      "name": "TEN LB2",
+      "position": "LB2",
+      "rating": 84,
+      "stats": {
+        "runD": 89,
+        "rush": 88,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "TEN-LB3",
+      "team": "TEN",
+      "name": "TEN LB3",
+      "position": "LB3",
+      "rating": 66,
+      "stats": {
+        "runD": 73,
+        "rush": 66,
+        "tackle": 67
+      }
+    },
+    {
+      "id": "TEN-CB1",
+      "team": "TEN",
+      "name": "TEN CB1",
+      "position": "CB1",
+      "rating": 70,
+      "stats": {
+        "cover": 75,
+        "tackle": 76
+      }
+    },
+    {
+      "id": "TEN-CB2",
+      "team": "TEN",
+      "name": "TEN CB2",
+      "position": "CB2",
+      "rating": 90,
+      "stats": {
+        "cover": 101,
+        "tackle": 96
+      }
+    },
+    {
+      "id": "TEN-FS",
+      "team": "TEN",
+      "name": "TEN FS",
+      "position": "FS",
+      "rating": 90,
+      "stats": {
+        "cover": 91,
+        "tackle": 95
+      }
+    },
+    {
+      "id": "TEN-SS",
+      "team": "TEN",
+      "name": "TEN SS",
+      "position": "SS",
+      "rating": 80,
+      "stats": {
+        "cover": 92,
+        "tackle": 83
+      }
+    }
+  ],
+  "WAS": [
+    {
+      "id": "WAS-QB",
+      "team": "WAS",
+      "name": "WAS QB",
+      "position": "QB",
+      "rating": 70,
+      "stats": {
+        "short": 78,
+        "deep": 70,
+        "int": 30
+      }
+    },
+    {
+      "id": "WAS-RB",
+      "team": "WAS",
+      "name": "WAS RB",
+      "position": "RB",
+      "rating": 72,
+      "stats": {
+        "inside": 72,
+        "outside": 70,
+        "fumble": 28
+      }
+    },
+    {
+      "id": "WAS-WR1",
+      "team": "WAS",
+      "name": "WAS WR1",
+      "position": "WR1",
+      "rating": 66,
+      "stats": {
+        "catch": 66,
+        "route": 74
+      }
+    },
+    {
+      "id": "WAS-WR2",
+      "team": "WAS",
+      "name": "WAS WR2",
+      "position": "WR2",
+      "rating": 77,
+      "stats": {
+        "catch": 87,
+        "route": 82
+      }
+    },
+    {
+      "id": "WAS-WR3",
+      "team": "WAS",
+      "name": "WAS WR3",
+      "position": "WR3",
+      "rating": 66,
+      "stats": {
+        "catch": 75,
+        "route": 65
+      }
+    },
+    {
+      "id": "WAS-TE",
+      "team": "WAS",
+      "name": "WAS TE",
+      "position": "TE",
+      "rating": 79,
+      "stats": {
+        "catch": 81,
+        "route": 86
+      }
+    },
+    {
+      "id": "WAS-DT1",
+      "team": "WAS",
+      "name": "WAS DT1",
+      "position": "DT1",
+      "rating": 90,
+      "stats": {
+        "runD": 96,
+        "rush": 92,
+        "tackle": 91
+      }
+    },
+    {
+      "id": "WAS-DT2",
+      "team": "WAS",
+      "name": "WAS DT2",
+      "position": "DT2",
+      "rating": 86,
+      "stats": {
+        "runD": 88,
+        "rush": 90,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "WAS-DE1",
+      "team": "WAS",
+      "name": "WAS DE1",
+      "position": "DE1",
+      "rating": 67,
+      "stats": {
+        "runD": 72,
+        "rush": 68,
+        "tackle": 67
+      }
+    },
+    {
+      "id": "WAS-DE2",
+      "team": "WAS",
+      "name": "WAS DE2",
+      "position": "DE2",
+      "rating": 84,
+      "stats": {
+        "runD": 84,
+        "rush": 86,
+        "tackle": 89
+      }
+    },
+    {
+      "id": "WAS-LB1",
+      "team": "WAS",
+      "name": "WAS LB1",
+      "position": "LB1",
+      "rating": 84,
+      "stats": {
+        "runD": 87,
+        "rush": 87,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "WAS-LB2",
+      "team": "WAS",
+      "name": "WAS LB2",
+      "position": "LB2",
+      "rating": 87,
+      "stats": {
+        "runD": 95,
+        "rush": 93,
+        "tackle": 87
+      }
+    },
+    {
+      "id": "WAS-LB3",
+      "team": "WAS",
+      "name": "WAS LB3",
+      "position": "LB3",
+      "rating": 78,
+      "stats": {
+        "runD": 85,
+        "rush": 77,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "WAS-CB1",
+      "team": "WAS",
+      "name": "WAS CB1",
+      "position": "CB1",
+      "rating": 80,
+      "stats": {
+        "cover": 86,
+        "tackle": 84
+      }
+    },
+    {
+      "id": "WAS-CB2",
+      "team": "WAS",
+      "name": "WAS CB2",
+      "position": "CB2",
+      "rating": 74,
+      "stats": {
+        "cover": 85,
+        "tackle": 73
+      }
+    },
+    {
+      "id": "WAS-FS",
+      "team": "WAS",
+      "name": "WAS FS",
+      "position": "FS",
+      "rating": 73,
+      "stats": {
+        "cover": 74,
+        "tackle": 79
+      }
+    },
+    {
+      "id": "WAS-SS",
+      "team": "WAS",
+      "name": "WAS SS",
+      "position": "SS",
+      "rating": 89,
+      "stats": {
+        "cover": 98,
+        "tackle": 94
+      }
+    }
+  ]
+}

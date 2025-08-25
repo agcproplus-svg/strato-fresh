@@ -1,0 +1,162 @@
+[
+  {
+    "abbr": "ARI",
+    "name": "Arizona Cardinals",
+    "logo": "assets/logos/ARI.svg"
+  },
+  {
+    "abbr": "ATL",
+    "name": "Atlanta Falcons",
+    "logo": "assets/logos/ATL.svg"
+  },
+  {
+    "abbr": "BAL",
+    "name": "Baltimore Ravens",
+    "logo": "assets/logos/BAL.svg"
+  },
+  {
+    "abbr": "BUF",
+    "name": "Buffalo Bills",
+    "logo": "assets/logos/BUF.svg"
+  },
+  {
+    "abbr": "CAR",
+    "name": "Carolina Panthers",
+    "logo": "assets/logos/CAR.svg"
+  },
+  {
+    "abbr": "CHI",
+    "name": "Chicago Bears",
+    "logo": "assets/logos/CHI.svg"
+  },
+  {
+    "abbr": "CIN",
+    "name": "Cincinnati Bengals",
+    "logo": "assets/logos/CIN.svg"
+  },
+  {
+    "abbr": "CLE",
+    "name": "Cleveland Browns",
+    "logo": "assets/logos/CLE.svg"
+  },
+  {
+    "abbr": "DAL",
+    "name": "Dallas Cowboys",
+    "logo": "assets/logos/DAL.svg"
+  },
+  {
+    "abbr": "DEN",
+    "name": "Denver Broncos",
+    "logo": "assets/logos/DEN.svg"
+  },
+  {
+    "abbr": "DET",
+    "name": "Detroit Lions",
+    "logo": "assets/logos/DET.svg"
+  },
+  {
+    "abbr": "GB",
+    "name": "Green Bay Packers",
+    "logo": "assets/logos/GB.svg"
+  },
+  {
+    "abbr": "HOU",
+    "name": "Houston Texans",
+    "logo": "assets/logos/HOU.svg"
+  },
+  {
+    "abbr": "IND",
+    "name": "Indianapolis Colts",
+    "logo": "assets/logos/IND.svg"
+  },
+  {
+    "abbr": "JAX",
+    "name": "Jacksonville Jaguars",
+    "logo": "assets/logos/JAX.svg"
+  },
+  {
+    "abbr": "KC",
+    "name": "Kansas City Chiefs",
+    "logo": "assets/logos/KC.svg"
+  },
+  {
+    "abbr": "MIA",
+    "name": "Miami Dolphins",
+    "logo": "assets/logos/MIA.svg"
+  },
+  {
+    "abbr": "MIN",
+    "name": "Minnesota Vikings",
+    "logo": "assets/logos/MIN.svg"
+  },
+  {
+    "abbr": "NE",
+    "name": "New England Patriots",
+    "logo": "assets/logos/NE.svg"
+  },
+  {
+    "abbr": "NO",
+    "name": "New Orleans Saints",
+    "logo": "assets/logos/NO.svg"
+  },
+  {
+    "abbr": "NYG",
+    "name": "New York Giants",
+    "logo": "assets/logos/NYG.svg"
+  },
+  {
+    "abbr": "NYJ",
+    "name": "New York Jets",
+    "logo": "assets/logos/NYJ.svg"
+  },
+  {
+    "abbr": "OAK",
+    "name": "Oakland Raiders",
+    "logo": "assets/logos/OAK.svg"
+  },
+  {
+    "abbr": "PHI",
+    "name": "Philadelphia Eagles",
+    "logo": "assets/logos/PHI.svg"
+  },
+  {
+    "abbr": "PIT",
+    "name": "Pittsburgh Steelers",
+    "logo": "assets/logos/PIT.svg"
+  },
+  {
+    "abbr": "SD",
+    "name": "San Diego Chargers",
+    "logo": "assets/logos/SD.svg"
+  },
+  {
+    "abbr": "SEA",
+    "name": "Seattle Seahawks",
+    "logo": "assets/logos/SEA.svg"
+  },
+  {
+    "abbr": "SF",
+    "name": "San Francisco 49ers",
+    "logo": "assets/logos/SF.svg"
+  },
+  {
+    "abbr": "STL",
+    "name": "St. Louis Rams",
+    "logo": "assets/logos/STL.svg"
+  },
+  {
+    "abbr": "TB",
+    "name": "Tampa Bay Buccaneers",
+    "logo": "assets/logos/TB.svg"
+  },
+  {
+    "abbr": "TEN",
+    "name": "Tennessee Titans",
+    "logo": "assets/logos/TEN.svg"
+  },
+  {
+    "abbr": "WAS",
+    "name": "Washington Redskins",
+    "logo": "assets/logos/WAS.svg"
+  }
+]
