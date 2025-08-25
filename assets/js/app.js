@@ -1,115 +1,109 @@
-
-
-
-// --- DOM references ---
-const startBtn = document.getElementById("startGame");
-const userSelect = document.getElementById("userTeam");
-const cpuSelect = document.getElementById("cpuTeam");
-const selectScreen = document.getElementById("teamSelect");
-const gameScreen = document.getElementById("gameBoard");
-
-const offenseCol = document.getElementById("offenseCol");
-const defenseCol = document.getElementById("defenseCol");
-const resultBox = document.getElementById("resultBox");
-
+let rosters = {};
 let userTeam = null;
 let cpuTeam = null;
-let userRoster = null;
-let cpuRoster = null;
-let possession = "user"; // user starts with the ball
+let ballPosition = 20; // yard line (0–100 scale)
 
-// --- Load rosters ---
-async function loadRosters() {
-  try {
-    const res = await fetch("data/rosters-2008.json");
-    return await res.json();
-  } catch (e) {
-    console.error("Error loading rosters:", e);
-  }
-}
+const offenseSlots = ["QB", "RB", "WR1", "WR2", "WR3", "TE"];
+const defenseSlots = ["DT1", "DT2", "DE1", "DE2", "LB1", "LB2", "LB3", "CB1", "CB2", "FS", "SS"];
 
-// --- Render roster players to the field ---
-function renderField(offense, defense) {
-  offenseCol.innerHTML = "";
-  defenseCol.innerHTML = "";
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("data/rosters-2008.json")
+    .then(res => res.json())
+    .then(data => { rosters = data; });
 
-  offense.forEach(player => {
-    const card = document.createElement("div");
-    card.className = "player-card offense";
-    card.innerText = player.name + " (" + player.pos + ")";
-    card.addEventListener("mouseenter", () => showPlayerCard(player));
-    card.addEventListener("mouseleave", hidePlayerCard);
-    offenseCol.appendChild(card);
+  const startBtn = document.getElementById("startGame");
+  startBtn.addEventListener("click", () => {
+    userTeam = document.getElementById("userTeam").value;
+    cpuTeam = document.getElementById("cpuTeam").value;
+    if (!userTeam || !cpuTeam) {
+      alert("Please select both teams.");
+      return;
+    }
+    document.getElementById("teamSelect").style.display = "none";
+    document.getElementById("gameBoard").style.display = "flex";
+    renderTeams();
+    renderBall();
   });
 
-  defense.forEach(player => {
-    const card = document.createElement("div");
-    card.className = "player-card defense";
-    card.innerText = player.name + " (" + player.pos + ")";
-    card.addEventListener("mouseenter", () => showPlayerCard(player));
-    card.addEventListener("mouseleave", hidePlayerCard);
-    defenseCol.appendChild(card);
+  document.querySelectorAll(".play-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      runPlay(btn.dataset.play);
+    });
+  });
+});
+
+function renderTeams() {
+  const offCol = document.getElementById("offenseCol");
+  const defCol = document.getElementById("defenseCol");
+  offCol.innerHTML = "";
+  defCol.innerHTML = "";
+
+  const offense = rosters[userTeam]?.offense || {};
+  const defense = rosters[cpuTeam]?.defense || {};
+
+  offenseSlots.forEach(slot => {
+    if (offense[slot]) {
+      const div = document.createElement("div");
+      div.className = "player-card offense";
+      div.textContent = `${slot}: ${offense[slot].name}`;
+      div.onmouseover = () => showPopup(offense[slot]);
+      div.onmouseout = hidePopup;
+      offCol.appendChild(div);
+    }
+  });
+
+  defenseSlots.forEach(slot => {
+    if (defense[slot]) {
+      const div = document.createElement("div");
+      div.className = "player-card defense";
+      div.textContent = `${slot}: ${defense[slot].name}`;
+      div.onmouseover = () => showPopup(defense[slot]);
+      div.onmouseout = hidePopup;
+      defCol.appendChild(div);
+    }
   });
 }
 
-// --- Show player card popup ---
-function showPlayerCard(player) {
+function showPopup(player) {
   const popup = document.getElementById("playerPopup");
+  popup.innerHTML = `<b>${player.name}</b><br>
+                     Pos: ${player.pos}<br>
+                     Rating: ${player.rating || "?"}`;
   popup.style.display = "block";
-  popup.innerHTML = `
-    <h3>${player.name}</h3>
-    <p><b>POS:</b> ${player.pos}</p>
-    <p>${player.stats || "No stats available"}</p>
-  `;
 }
-function hidePlayerCard() {
-  const popup = document.getElementById("playerPopup");
-  popup.style.display = "none";
+function hidePopup() {
+  document.getElementById("playerPopup").style.display = "none";
 }
 
-// --- Resolve play selection ---
-function handlePlay(playType) {
-  const offense = possession === "user" ? userRoster.offense : cpuRoster.offense;
-  const defense = possession === "user" ? cpuRoster.defense : userRoster.defense;
+function runPlay(play) {
+  let yards = Math.floor(Math.random() * 10) - 2; // -2 to +7
+  if (play === "Deep Pass") yards += Math.floor(Math.random() * 15);
+  if (play === "Run RB") yards += 3;
 
-  const result = resolvePlay(playType, offense, defense);
-  resultBox.innerText = result;
+  ballPosition += yards;
+  if (ballPosition < 0) ballPosition = 0;
+  if (ballPosition > 100) ballPosition = 100;
+
+  document.getElementById("resultBox").textContent =
+    `${play} gained ${yards} yards. Ball at ${ballPosition} yard line.`;
+
+  renderBall();
 }
 
-// --- Dummy play resolver (replace with Strat-O-Matic style later) ---
-function resolvePlay(playType, offense, defense) {
-  const dice = Math.floor(Math.random() * 20) + 1;
-  if (dice <= 5) return `${playType}: Loss of yards`;
-  if (dice <= 10) return `${playType}: Short gain`;
-  if (dice <= 15) return `${playType}: Medium gain`;
-  if (dice <= 19) return `${playType}: Long gain!`;
-  return `${playType}: Touchdown!`;
-}
-
-// --- Attach handlers to play buttons ---
-document.querySelectorAll(".play-btn").forEach(btn => {
-  btn.addEventListener("click", () => handlePlay(btn.dataset.play));
-});
-
-// --- Start Game handler ---
-startBtn.addEventListener("click", async () => {
-  const uTeam = userSelect.value;
-  const cTeam = cpuSelect.value;
-  if (!uTeam || !cTeam || uTeam === cTeam) {
-    alert("Pick two different teams!");
-    return;
+function renderBall() {
+  let marker = document.getElementById("ballMarker");
+  if (!marker) {
+    marker = document.createElement("div");
+    marker.id = "ballMarker";
+    marker.style.position = "absolute";
+    marker.style.fontSize = "20px";
+    marker.textContent = "🏈";
+    document.getElementById("field").appendChild(marker);
   }
-
-  const allRosters = await loadRosters();
-  userRoster = allRosters[uTeam];
-  cpuRoster = allRosters[cTeam];
-  userTeam = uTeam;
-  cpuTeam = cTeam;
-
-  // hide select, show board
-  selectScreen.style.display = "none";
-  gameScreen.style.display = "block";
-
-  // first drive: user offense vs cpu defense
-  renderField(userRoster.offense, cpuRoster.defense);
-});
+  const field = document.getElementById("field");
+  const fieldHeight = field.offsetHeight;
+  const y = fieldHeight - (ballPosition / 100) * fieldHeight;
+  marker.style.left = "50%";
+  marker.style.marginLeft = "-10px";
+  marker.style.top = `${y - 10}px`;
+}
